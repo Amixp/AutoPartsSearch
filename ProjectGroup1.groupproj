@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B3750127-D753-4689-8147-D8FC4BBB83DA}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AutoWebSearch.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Download\Download.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Download\ftp\FtpThread.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dbupgrade\DBUpg.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AutoWebSearch">
+        <MSBuild Projects="AutoWebSearch.dproj"/>
+    </Target>
+    <Target Name="AutoWebSearch:Clean">
+        <MSBuild Projects="AutoWebSearch.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AutoWebSearch:Make">
+        <MSBuild Projects="AutoWebSearch.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Download">
+        <MSBuild Projects="Download\Download.dproj"/>
+    </Target>
+    <Target Name="Download:Clean">
+        <MSBuild Projects="Download\Download.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Download:Make">
+        <MSBuild Projects="Download\Download.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FtpThread">
+        <MSBuild Projects="Download\ftp\FtpThread.dproj"/>
+    </Target>
+    <Target Name="FtpThread:Clean">
+        <MSBuild Projects="Download\ftp\FtpThread.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FtpThread:Make">
+        <MSBuild Projects="Download\ftp\FtpThread.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DBUpg">
+        <MSBuild Projects="dbupgrade\DBUpg.dproj"/>
+    </Target>
+    <Target Name="DBUpg:Clean">
+        <MSBuild Projects="dbupgrade\DBUpg.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DBUpg:Make">
+        <MSBuild Projects="dbupgrade\DBUpg.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AutoWebSearch;Download;FtpThread;DBUpg"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AutoWebSearch:Clean;Download:Clean;FtpThread:Clean;DBUpg:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AutoWebSearch:Make;Download:Make;FtpThread:Make;DBUpg:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

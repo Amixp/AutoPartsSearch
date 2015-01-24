@@ -1,0 +1,367 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4462751F-20E8-4B8B-9AB0-1D9093B193EE}</ProjectGuid>
+        <ProjectVersion>15.1</ProjectVersion>
+        <MainSource>AutoWebSearch.dpr</MainSource>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+        <Base>True</Base>
+        <AppType>Application</AppType>
+        <FrameworkType>VCL</FrameworkType>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+        <TargetedPlatforms>1</TargetedPlatforms>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <Icon_MainIcon>AutoWebSearch_Icon.ico</Icon_MainIcon>
+        <DCC_UnitSearchPath>D:\Docs\Dropbox\Проекты\SearchAutoCat\synapse\source\lib;c:\Documents\Dropbox\Проекты\SearchAutoCat\synapse\source\lib\;d:\Docs\Dropbox\Проекты\SimpleLog\;d:\Docs\Dropbox\Проекты\SimpleLog\;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.14;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Build>14</VerInfo_Build>
+        <VerInfo_Locale>1049</VerInfo_Locale>
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;Data.Win;System.Win;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <VerInfo_AutoGenVersion>true</VerInfo_AutoGenVersion>
+        <DCC_UsePackage>vcl;CodeSiteExpressVcl;rtl;vclx;vclimg;dbrtl;adortl;vcldb;vclactnband;vcldbx;bdertl;DataSnapIndy10ServerTransport;DataSnapClient;dbexpress;xmlrtl;DbxClientDriver;DbxCommonDriver;dbxcds;vclie;inet;IndyProtocols;inetdbbde;inetdbxpress;DataSnapProviderClient;dsnap;inetdb;IndySystem;IndyCore;DataSnapServer;dsnapcon;DBXInterBaseDriver;DBXMySQLDriver;DBXFirebirdDriver;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;vclib;ibxpress;vclribbon;soaprtl;VclSmp;svnui;svn;vcltouch;websnap;webdsnap;AzureCloud;Rave90VCL;TeeUI;TeeDB;Tee;intrawebdb_110_150;Intraweb_110_150;dxCoreRS15;cxLibraryRS15;dxGDIPlusRS15;dxThemeRS15;cxEditorsRS15;cxDataRS15;cxExtEditorsRS15;dxBarRS15;dxComnRS15;dxBarDBNavRS15;dxBarExtDBItemsRS15;dxBarExtItemsRS15;dxRibbonRS15;cxBarEditItemRS15;dxdbtrRS15;dxtrmdRS15;dxmdsRS15;dxDockingRS15;dxFlowChartRS15;cxPageControlRS15;dxLayoutControlRS15;dxNavBarRS15;dxorgcRS15;dxdborRS15;cxGridRS15;cxExportRS15;cxPivotGridRS15;cxPivotGridChartRS15;cxPivotGridOLAPRS15;cxTreeListRS15;cxTreeListdxBarPopupMenuRS15;cxSchedulerRS15;cxSchedulerGridRS15;dxsbRS15;dcldxSkinsCoreRS15;dxSkinsCoreRS15;dxSkinscxPCPainterRS15;dxSkinscxScheduler3PainterRS15;dxSkinsdxDLPainterRS15;dxSkinsdxBarPainterRS15;dxSkinsdxNavBar2PainterRS15;dxSpellCheckerRS15;cxSpreadSheetRS15;cxVerticalGridRS15;dxPSCoreRS15;dxPSLnksRS15;dxPScxCommonRS15;dxPScxExtCommonRS15;dxPScxGrid6LnkRS15;dxPScxPivotGrid2LnkRS15;dxPScxScheduler3LnkRS15;dxPScxSSLnkRS15;dxPScxTL5LnkRS15;dxPScxVGridLnkRS15;dxPSTeeChartRS15;dxPSDBTeeChartRS15;dxPSdxOCLnkRS15;dxPSdxDBOCLnkRS15;dxPSdxDBTVLnkRS15;dxPSdxFCLnkRS15;dxPSdxLC2LnkRS15;dxPScxPCProdRS15;dxPsPrVwAdvRS15;dxPSPrVwRibbonRS15;dxSkinsdxRibbonPainterRS15;dxSkinXmas2008BlueRS15;dxSkinBlackRS15;dxSkinBlueRS15;dxSkinCaramelRS15;dxSkinCoffeeRS15;dxSkinDarkRoomRS15;dxSkinDarkSideRS15;dxSkinFoggyRS15;dxSkinGlassOceansRS15;dxSkiniMaginaryRS15;dxSkinLilianRS15;dxSkinLiquidSkyRS15;dxSkinLondonLiquidSkyRS15;dxSkinMcSkinRS15;dxSkinMoneyTwinsRS15;dxSkinOffice2007BlackRS15;dxSkinOffice2007BlueRS15;dxSkinOffice2007GreenRS15;dxSkinOffice2007PinkRS15;dxSkinOffice2007SilverRS15;dxSkinOffice2010BlackRS15;dxSkinOffice2010BlueRS15;dxSkinOffice2010SilverRS15;dxSkinPumpkinRS15;dxSkinSevenRS15;dxSkinSharpRS15;dxSkinSilverRS15;dxSkinSpringTimeRS15;dxSkinStardustRS15;dxSkinSummer2008RS15;dxSkinValentineRS15;JclDeveloperTools;Jcl;JclVcl;JclContainers;JvCore;JvSystem;JvStdCtrls;JvAppFrm;JvBands;JvDB;JvDlgs;JvBDE;JvControls;JvCmp;JvCrypt;JvCustom;JvDocking;JvDotNetCtrls;JvGlobus;JvHMI;JvJans;JvManagedThreads;JvMM;JvNet;JvPageComps;JvPascalInterpreter;JvPluginSystem;JvPrintPreview;JvRuntimeDesign;JvTimeFramework;JvWizards;JvXPCtrls;$(DCC_UsePackage)</DCC_UsePackage>
+        <DCC_DependencyCheckOutputName>Main.exe</DCC_DependencyCheckOutputName>
+        <DCC_ImageBase>00400000</DCC_ImageBase>
+        <DCC_Platform>x86</DCC_Platform>
+        <DCC_E>false</DCC_E>
+        <DCC_N>false</DCC_N>
+        <DCC_S>false</DCC_S>
+        <DCC_F>false</DCC_F>
+        <DCC_K>false</DCC_K>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <VerInfo_Build>0</VerInfo_Build>
+        <Icon_MainIcon>AutoWebSearch_Icon.ico</Icon_MainIcon>
+        <DCC_Namespace>Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <Icon_MainIcon>AutoWebSearch_Icon.ico</Icon_MainIcon>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <Icon_MainIcon>AutoWebSearch_Icon.ico</Icon_MainIcon>
+        <DCC_ExeOutput>D:\Docs\Dropbox\Проекты\SearchAutoCat1\_Release\</DCC_ExeOutput>
+        <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_DebugInformation>0</DCC_DebugInformation>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <DCC_UnitSearchPath>D:\Docs\YandexDisk\Проекты\SearchAutoCat;D:\Docs\YandexDisk\Проекты\log4d;D:\Docs\YandexDisk\Проекты\SimpleLog;D:\Docs\YandexDisk\Проекты\UpdatePrj;D:\Docs\YandexDisk\Проекты\SearchAutoCat\HtmlParser;D:\Docs\YandexDisk\Проекты\SearchAutoCat\synapse\source;D:\Docs\YandexDisk\Проекты\SearchAutoCat\synapse\source\lib;D:\Docs\YandexDisk\Проекты\SearchAutoCat\Debug;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_ExeOutput>D:\Docs\YandexDisk\Проекты\SearchAutoCat1\_Release\</DCC_ExeOutput>
+        <VerInfo_Build>0</VerInfo_Build>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <Icon_MainIcon>AutoWebSearch_Icon1.ico</Icon_MainIcon>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <ILINK_FullDebugInfo>true</ILINK_FullDebugInfo>
+        <BCC_SourceDebuggingOn>true</BCC_SourceDebuggingOn>
+        <DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+        <BCC_DebugLineNumbers>true</BCC_DebugLineNumbers>
+        <DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <DCC_OutputDRCFile>true</DCC_OutputDRCFile>
+        <DCC_MapFile>1</DCC_MapFile>
+        <Debugger_IncludeSystemVars>true</Debugger_IncludeSystemVars>
+        <BRCC_EnableMultiByte>true</BRCC_EnableMultiByte>
+        <DCC_UnitSearchPath>D:\Docs\YandexDisk\Проекты\log4d;D:\Docs\YandexDisk\Проекты\SimpleLog;D:\Docs\YandexDisk\Проекты\UpdatePrj;.\Debug;.\HtmlParser;.\synapse\source;.\synapse\source\lib</DCC_UnitSearchPath>
+        <VerInfo_Build>0</VerInfo_Build>
+        <DCC_ExeOutput>.\Debug\</DCC_ExeOutput>
+        <DCC_RemoteDebug>true</DCC_RemoteDebug>
+        <DCC_RangeChecking>true</DCC_RangeChecking>
+        <DCC_Optimize>false</DCC_Optimize>
+        <BRCC_Verbose>true</BRCC_Verbose>
+        <DCC_IntegerOverflowCheck>true</DCC_IntegerOverflowCheck>
+        <DCC_DebugInfoInTds>true</DCC_DebugInfoInTds>
+        <DCC_OutputXMLDocumentation>true</DCC_OutputXMLDocumentation>
+        <DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+        <VerInfo_MinorVer>1</VerInfo_MinorVer>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.1.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_PreRelease>true</VerInfo_PreRelease>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="MainUnit.pas">
+            <Form>FormMain</Form>
+        </DCCReference>
+        <DCCReference Include="settings.pas">
+            <Form>FormSettings</Form>
+        </DCCReference>
+        <DCCReference Include="SearchUnit.pas">
+            <Form>FormSearch</Form>
+        </DCCReference>
+        <DCCReference Include="UnitDB.pas">
+            <Form>DM</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="UnitVars.pas"/>
+        <DCCReference Include="DBs.pas">
+            <Form>FormDB</Form>
+        </DCCReference>
+        <DCCReference Include="UnitWEB.pas">
+            <Form>FormWEB</Form>
+        </DCCReference>
+        <DCCReference Include="getstrparam.pas"/>
+        <DCCReference Include="UnitURLs.pas">
+            <Form>FormURLs</Form>
+        </DCCReference>
+        <DCCReference Include="UnitProgress.pas">
+            <Form>FormProgress</Form>
+        </DCCReference>
+        <DCCReference Include="UnitWEB2.pas">
+            <Form>FormWEB2</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="HtmlParser\HTMLObjs.pas"/>
+        <DCCReference Include="HtmlParser\HTMLParser.pas"/>
+        <DCCReference Include="HtmlParser\StrMan.pas"/>
+        <DCCReference Include="SearchUnit2.pas"/>
+        <DCCReference Include="UnitUpdate.pas"/>
+        <DCCReference Include="test navigate\parse.pas"/>
+        <DCCReference Include="test navigate\UnitSend.pas"/>
+        <None Include="ModelSupport_AutoSearch\Activity Diagram1.txvact"/>
+        <None Include="ModelSupport_AutoSearch\Class Diagram.txvcls"/>
+        <None Include="ModelSupport_AutoSearch\default.txaPackage"/>
+        <None Include="ModelSupport_AutoSearch\default.txvpck"/>
+        <None Include="ModelSupport_AutoSearch\Use Case Diagram1.txvuse"/>
+        <None Include="ModelSupport_AutoSearch\Namespace1\default.txaPackage"/>
+        <None Include="ModelSupport_AutoSearch\Namespace1\default.txvpck"/>
+        <None Include="ModelSupport_AutoWebSearch\default.txvpck"/>
+        <None Include="ModelSupport_AutoWebSearch\default (comp's conflicted copy 2014-03-08).txvpck"/>
+        <None Include="ModelSupport_AutoWebSearch\default.txaPackage"/>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+    <Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">AutoWebSearch.dpr</Source>
+                </Source>
+                <Parameters/>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">True</VersionInfo>
+                    <VersionInfo Name="MajorVer">1</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">38</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1049</VersionInfo>
+                    <VersionInfo Name="CodePage">1251</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">1.0.0.38</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k190.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
+            </Delphi.Personality>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+            <ModelSupport>True</ModelSupport>
+            <Deployment>
+                <DeployFile LocalName="libeay32.dll" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>libeay32.dll</RemoteName>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <RemoteName>libeay32.dll</RemoteName>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="AutoWebSearch.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32"/>
+                </DeployFile>
+                <DeployFile LocalName="OpenSSL License.txt" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>OpenSSL License.txt</RemoteName>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <RemoteName>OpenSSL License.txt</RemoteName>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="AutoWebSearch.rsm" Configuration="Debug" Class="DebugSymbols">
+                    <Platform Name="Win32">
+                        <RemoteName>AutoWebSearch.rsm</RemoteName>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="Database.mdb" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>Database.mdb</RemoteName>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <RemoteName>Database.mdb</RemoteName>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ssleay32.dll" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>ssleay32.dll</RemoteName>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <RemoteName>ssleay32.dll</RemoteName>
+                    </Platform>
+                </DeployFile>
+                <DeployClass Required="true" Name="ProjectOutput">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Required="true" Name="DependencyPackage">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                        <Extensions>.bpl</Extensions>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DependencyModule">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                        <Extensions>.dll;.bpl</Extensions>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectOSXInfoPList">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="File">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DebugSymbols">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DependencyFramework">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                        <Extensions>.framework</Extensions>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AdditionalDebugSymbols">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectOSXResource">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\Resources</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <ProjectRoot Platform="OSX32" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Win64" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="Win32" Name="$(PROJECTNAME)"/>
+            </Deployment>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Condition="Exists('$(MSBuildProjectName).deployproj')" Project="$(MSBuildProjectName).deployproj"/>
+</Project>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="xowt9mjwneluzr63g_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Загрузка формы логина" />
+    <link uin="9emzoeq0j7qt74o9j_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::xowt9mjwneluzr63g_n" role="Client" />
+      <participant referencedUin="design:node:::dac1c5fti7qgqu9ss_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="2bu0jt2y0xlcij2fn_n">
+    <property name="$description" value="Старт" />
+    <property name="$metaclass" value="Start State" />
+    <property name="$name" value="Start State1" />
+    <link uin="gvpwq074khmaj2kkk_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::2bu0jt2y0xlcij2fn_n" role="Client" />
+      <participant referencedUin="design:node:::xowt9mjwneluzr63g_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="dac1c5fti7qgqu9ss_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Отправка логина" />
+    <link uin="2xi8c9j0uxt86cflh_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::dac1c5fti7qgqu9ss_n" role="Client" />
+      <participant referencedUin="design:node:::pvn7iy83uxttx4zzn_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="pvn7iy83uxttx4zzn_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Отправка принятие правил сайта" />
+    <link uin="r1r1w5i17vf_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::pvn7iy83uxttx4zzn_n" role="Client" />
+      <participant referencedUin="design:node:::nplw22err9l_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="nplw22err9l_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Отправка запроса на категорию" />
+    <link uin="zyb8cf02t1g_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::nplw22err9l_n" role="Client" />
+      <participant referencedUin="design:node:::4l1ildjghje_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="4l1ildjghje_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Отправка запроса на запчасть" />
+    <link uin="86egt6sktdk_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::4l1ildjghje_n" role="Client" />
+      <participant referencedUin="design:node:::3yk0gca2dah_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="3yk0gca2dah_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Обработка списка запчастей" />
+    <link uin="xhphdaw2sp_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::3yk0gca2dah_n" role="Client" />
+      <participant referencedUin="design:node:::ydgvqbp1t0s_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="ydgvqbp1t0s_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="обработка картинок запчастей" />
+    <link uin="m0cf9kvy8pg_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::ydgvqbp1t0s_n" role="Client" />
+      <participant referencedUin="design:node:::g7iqpy31dqs_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="g7iqpy31dqs_n">
+    <property name="$metaclass" value="End State" />
+    <property name="$name" value="End State1" />
+  </node>
+</nodeSet>

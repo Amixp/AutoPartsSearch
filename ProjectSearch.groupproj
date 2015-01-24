@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{200CC201-146B-4BF9-9E2E-87AEA4CD0415}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AutoWebSearch.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TestPost\TestPost.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="dbupgrade\DBUpg.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\RAD Studio\synapse\source\demo\http\httpdemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AutoWebSearch">
+        <MSBuild Projects="AutoWebSearch.dproj"/>
+    </Target>
+    <Target Name="AutoWebSearch:Clean">
+        <MSBuild Projects="AutoWebSearch.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AutoWebSearch:Make">
+        <MSBuild Projects="AutoWebSearch.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestPost">
+        <MSBuild Projects="TestPost\TestPost.dproj"/>
+    </Target>
+    <Target Name="TestPost:Clean">
+        <MSBuild Projects="TestPost\TestPost.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestPost:Make">
+        <MSBuild Projects="TestPost\TestPost.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DBUpg">
+        <MSBuild Projects="dbupgrade\DBUpg.dproj"/>
+    </Target>
+    <Target Name="DBUpg:Clean">
+        <MSBuild Projects="dbupgrade\DBUpg.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DBUpg:Make">
+        <MSBuild Projects="dbupgrade\DBUpg.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="httpdemo">
+        <MSBuild Projects="..\..\..\RAD Studio\synapse\source\demo\http\httpdemo.dproj"/>
+    </Target>
+    <Target Name="httpdemo:Clean">
+        <MSBuild Projects="..\..\..\RAD Studio\synapse\source\demo\http\httpdemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="httpdemo:Make">
+        <MSBuild Projects="..\..\..\RAD Studio\synapse\source\demo\http\httpdemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AutoWebSearch;TestPost;DBUpg;httpdemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AutoWebSearch:Clean;TestPost:Clean;DBUpg:Clean;httpdemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AutoWebSearch:Make;TestPost:Make;DBUpg:Make;httpdemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="18cg3vxvv5p_v">
+    <property name="$metaclass" value="Activity Diagram" />
+    <property name="$name" value="Activity Diagram1" />
+    <reference referencedUin="design:node:::n4cdhgih7kj_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="80,40,234,54" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="design:node:::nxb8j8aq0g9jib1ff_n:n4cdhgih7kj_n">
+        <property name="bounds" value="55,-1,0,0" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:TestPost:parse._img">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="840,380,116,128" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:TestPost:parse._img.name" />
+      <reference referencedUin="delphi:e_field:src:TestPost:parse._img.url" />
+      <reference referencedUin="delphi:e_field:src:TestPost:parse._img.img" />
+    </reference>
+    <reference referencedUin="design:node:::0gjb5gmasabsqy59s_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="340,60,100,60" />
+      <property name="location_set_by_user" value="True" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="design:link:::u8z5oztceepz2g5do_l:0gjb5gmasabsqy59s_n">
+        <property name="sourceAnchor" value="340,77" />
+        <property name="targetAnchor" value="312,77" />
+        <property name="bendpoints" value="" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+      <reference referencedUin="design:link:::l0u3lo0rhqqdmi1cr_l:0gjb5gmasabsqy59s_n">
+        <property name="sourceAnchor" value="440,85" />
+        <property name="targetAnchor" value="588,120" />
+        <property name="bendpoints" value="588,85" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+    </reference>
+    <reference referencedUin="design:node:::iftek50k0wes0l3vn_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,120,190,54" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="design:node:::z03anjfeqe_n:iftek50k0wes0l3vn_n">
+        <property name="bounds" value="35,-1,0,0" />
+      </reference>
+      <reference referencedUin="design:link:::9bdh7ghsunlousder_l:iftek50k0wes0l3vn_n">
+        <property name="sourceAnchor" value="595,174" />
+        <property name="targetAnchor" value="595,200" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="design:link:::9z86igcaxbfgdtw2q_l:iftek50k0wes0l3vn_n">
+        <property name="sourceAnchor" value="687,133" />
+        <property name="targetAnchor" value="840,150" />
+        <property name="bendpoints" value="755,133" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+    </reference>
+    <reference referencedUin="design:node:::2wsx094mwa7zujypg_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="480,200,234,54" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="design:node:::sbwky7ypuun_n:2wsx094mwa7zujypg_n">
+        <property name="bounds" value="39,12,0,0" />
+      </reference>
+      <reference referencedUin="design:link:::i38k55ltjx1eqousm_l:2wsx094mwa7zujypg_n">
+        <property name="sourceAnchor" value="597,254" />
+        <property name="targetAnchor" value="597,300" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="design:link:::hliz50s1sks0s0mxg_l:2wsx094mwa7zujypg_n">
+        <property name="sourceAnchor" value="672,200" />
+        <property name="targetAnchor" value="840,164" />
+        <property name="bendpoints" value="728,180" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+    </reference>
+    <reference referencedUin="design:node:::x1mp8ddcnw910ff1f_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="500,400,193,54" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="design:node:::1s37fejfnqq_n:x1mp8ddcnw910ff1f_n">
+        <property name="bounds" value="45,17,0,0" />
+      </reference>
+      <reference referencedUin="design:link:::saa3yj40r1k_l:x1mp8ddcnw910ff1f_n">
+        <property name="sourceAnchor" value="692,423" />
+        <property name="targetAnchor" value="858,178" />
+        <property name="bendpoints" value="739,423,774,255" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+    </reference>
+    <reference referencedUin="design:node:::rc0pk32y59a7swbmt_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="440,300,281,54" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="design:link:::vj28vyhn0nf_l:rc0pk32y59a7swbmt_n">
+        <property name="sourceAnchor" value="596,354" />
+        <property name="targetAnchor" value="596,400" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="design:link:::dd5q6xaaghrkds0qt_l:rc0pk32y59a7swbmt_n">
+        <property name="sourceAnchor" value="440,330" />
+        <property name="targetAnchor" value="389,120" />
+        <property name="bendpoints" value="389,330" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+      <reference referencedUin="design:node:::o8jl6b1wgxo_n:rc0pk32y59a7swbmt_n">
+        <property name="bounds" value="56,12,0,0" />
+      </reference>
+      <reference referencedUin="design:link:::57r7m5060otzbsn2p_l:rc0pk32y59a7swbmt_n">
+        <property name="sourceAnchor" value="702,300" />
+        <property name="targetAnchor" value="845,178" />
+        <property name="bendpoints" value="702,285" />
+        <property name="bounds_setted_by_user" value="True" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:TestPost:parse.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="0,0,0,0" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GenName()" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetTag(System.string,System.string,System.string,ref@System.Integer,ref@parse._Tag)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.FirstDelimiter(System.string,System.string,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetScript(System.string)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetImg(System.string)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetTagName(System.string,ref@System.Integer,ref@System.Integer,ref@System.Integer,ref@System.Integer,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.ParseTable(System.string,Grids.TStringGrid)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetImgs(System.string,ref@parse._img[])" />
+    </reference>
+    <reference referencedUin="design:node:::086a7fgu2d7b6nnup_n">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="840,140,80,38" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="design:link:::kulxehbzch0onwk3s_l:086a7fgu2d7b6nnup_n">
+        <property name="sourceAnchor" value="880,178" />
+        <property name="targetAnchor" value="880,240" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:TestPost:parse._Imgs">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="840,240,128,36" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+  </view>
+</nodeSet>

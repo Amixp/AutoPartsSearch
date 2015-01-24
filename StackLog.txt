@@ -1,0 +1,695 @@
+03.11.2014 20:35:56:992 | Error | COMP3 | artem | 3300 | AutoWebSearch.exe | { Original Exception - Socket Error # 10053
+Software caused connection abort. }
+[0063C7B7] IdStack.TIdStack.RaiseSocketError$qqri + $73
+[0064F4DD] IdIOHandlerSocket.TIdIOHandlerSocket.RaiseError$qqri + $9
+[006ABF55] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.RaiseError$qqri + $21
+[0064718D] IdIOHandler.TIdIOHandler.WriteDirect$qqrx25System.%DynamicArray$tuc%xixi + $D1
+[00646D7E] IdIOHandler.TIdIOHandler.Write$qqrx25System.%DynamicArray$tuc%xixi + $32
+[0064450A] IdIOHandler.TIdIOHandler.Write$qqrx20System.UnicodeString52System.%DelphiInterface$t24Idglobal.IIdTextEncoding% + $6E
+[00645BDB] IdIOHandler.TIdIOHandler.WriteLn$qqrx20System.UnicodeString52System.%DelphiInterface$t24Idglobal.IIdTextEncoding% + $43
+[00681CF6] IdMessageClient.TIdMessageClient.SendBody$qqrp20Idmessage.TIdMessage + $76E
+[0068240C] IdMessageClient.TIdMessageClient.SendBody$qqrp20Idmessage.TIdMessage + $E84
+[00682996] IdMessageClient.TIdMessageClient.SendMsg$qqrp20Idmessage.TIdMessageo + $8E
+[006881CF] IdSMTPBase.TIdSMTPBase.SendNoPipelining$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList + $EF
+[00688AC7] IdSMTPBase.TIdSMTPBase.InternalSend$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList + $43
+[0068B497] IdSMTP.TIdSMTP.InternalSend$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList + $33
+[00688BCB] IdSMTPBase.TIdSMTPBase.Send$qqrp20Idmessage.TIdMessagep34Idemailaddress.TIdEMailAddressList + $4F
+[00688B4E] IdSMTPBase.TIdSMTPBase.Send$qqrp20Idmessage.TIdMessage + $56
+[008230AF] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 190, "umpgSendMail.pas" + 37) + $E
+[008490F7] UnitSend.SendMail2$qqr20System.UnicodeStringt1t1t1t1t1t1t1p23System.Classes.TStrings (Line 414, "UnitSend.pas" + 41) + $3
+[008530B0] SearchUnit2.TSearch2.Search2$qqrv (Line 242, "SearchUnit2.pas" + 177) + $E0
+[008561C0] SearchUnit.TFormSearch.Timer1Timer$qqrp14System.TObject (Line 391, "SearchUnit.pas" + 16) + $3
+[005B5153] Vcl.ExtCtrls.Extctrls.TTimer.Timer$qqrv + $F
+[005B5037] Vcl.ExtCtrls.Extctrls.TTimer.WndProc$qqrr24Winapi.Messages.TMessage + $2B
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+
+03.11.2014 22:51:43:326 | Error | COMP3 | artem | 3744 | AutoWebSearch.exe | { Original Exception - Range check error }
+[0084C40F] parse.GetImagesFromHTML$qqrp14Idhttp.TIdHTTPr20System.UnicodeStringrp23System.Classes.TStrings20System.UnicodeStringt4 (Line 585, "parse.pas" + 103) + $3D
+[004068E2] System.ErrorAt$qqrucpv + $16
+[00406926] System.Error$qqr20System.TRuntimeError + $E
+[0084C40F] parse.GetImagesFromHTML$qqrp14Idhttp.TIdHTTPr20System.UnicodeStringrp23System.Classes.TStrings20System.UnicodeStringt4 (Line 585, "parse.pas" + 103) + $3D
+[0084C5D0] parse.GetImagesFromHTML$qqrp14Idhttp.TIdHTTPr20System.UnicodeStringrp23System.Classes.TStrings20System.UnicodeStringt4 (Line 614, "parse.pas" + 132) + $84
+[00852F82] SearchUnit2.TSearch2.Search2$qqrv (Line 237, "SearchUnit2.pas" + 172) + $35
+[008561C0] SearchUnit.TFormSearch.Timer1Timer$qqrp14System.TObject (Line 391, "SearchUnit.pas" + 16) + $3
+[005B5153] Vcl.ExtCtrls.Extctrls.TTimer.Timer$qqrv + $F
+[005B5037] Vcl.ExtCtrls.Extctrls.TTimer.WndProc$qqrr24Winapi.Messages.TMessage + $2B
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+
+19.12.2014 02:42:02:677 | Error | AMIX | Артём | 15172 | AutoWebSearch.exe | { Original Exception - Could not load SSL library. }
+[006ABFCB] IdSSLOpenSSL.TIdSSLContext.$bctr$qqrv + $53
+[006ABB68] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Init$qqrv + $18
+[006AB943] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.StartSSL$qqrv + $1B
+[006AB91B] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.ConnectClient$qqrv + $6B
+[0064F103] IdIOHandlerSocket.TIdIOHandlerSocket.Open$qqrv + $63
+[006AB9F3] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Open$qqrv + $7
+[0064AEA1] IdTCPClient.TIdTCPClientCustom.Connect$qqrv + $23D
+[0067C184] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect$qqrv + $A4
+[0068AE93] IdSMTP.TIdSMTP.Connect$qqrv + $17
+[0082309F] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 189, "umpgSendMail.pas" + 36) + $8
+[00823F09] settings.TFormSettings.BtTestMailClick$qqrp14System.TObject (Line 145, "settings.pas" + 50) + $3
+[0054B45B] Vcl.Controls.TControl.Click$qqrv + $6F
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054F654] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $1F4
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[00408D77] System.TMonitor.Exit$qqrxp14System.TObject + $F
+[005261E3] Vcl.Graphics.FreeMemoryContexts$qqrv + $9B
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[0054F07D] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $41
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00610256] Vcl.Forms.TCustomForm.ShowModal$qqrv + $1AA
+[008583D9] MainUnit.TFormMain.Action3Execute$qqrp14System.TObject (Line 183, "MainUnit.pas" + 3) + $9
+[004D51FB] System.Classes.TBasicAction.Execute$qqrv + $F
+[0052ED23] Vcl.ActnList.Actnlist.TCustomAction.Execute$qqrv + $93
+[004D509B] System.Classes.TBasicActionLink.Execute$qqrp25System.Classes.TComponent + $13
+[0054B444] Vcl.Controls.TControl.Click$qqrv + $58
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0060E9CC] Vcl.Forms.TCustomForm.WMCommand$qqrr26Winapi.Messages.TWMCommand + $2C
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0060B7D9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage + $60D
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+
+19.12.2014 02:43:05:096 | Error | AMIX | Артём | 15172 | AutoWebSearch.exe | { Original Exception - Could not load SSL library. }
+[006ABFCB] IdSSLOpenSSL.TIdSSLContext.$bctr$qqrv + $53
+[006ABB68] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Init$qqrv + $18
+[006AB943] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.StartSSL$qqrv + $1B
+[006AB91B] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.ConnectClient$qqrv + $6B
+[0064F103] IdIOHandlerSocket.TIdIOHandlerSocket.Open$qqrv + $63
+[006AB9F3] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Open$qqrv + $7
+[0064AEA1] IdTCPClient.TIdTCPClientCustom.Connect$qqrv + $23D
+[0067C184] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect$qqrv + $A4
+[0068AE93] IdSMTP.TIdSMTP.Connect$qqrv + $17
+[0082309F] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 189, "umpgSendMail.pas" + 36) + $8
+[00823F09] settings.TFormSettings.BtTestMailClick$qqrp14System.TObject (Line 145, "settings.pas" + 50) + $3
+[0054B45B] Vcl.Controls.TControl.Click$qqrv + $6F
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[006AFFFB] IdHashMessageDigest.TIdHashMessageDigest5.MDCoder$qqrv + $837
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054F654] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $1F4
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[00408D77] System.TMonitor.Exit$qqrxp14System.TObject + $F
+[005261E3] Vcl.Graphics.FreeMemoryContexts$qqrv + $9B
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[0054F07D] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $41
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00610256] Vcl.Forms.TCustomForm.ShowModal$qqrv + $1AA
+[008583D9] MainUnit.TFormMain.Action3Execute$qqrp14System.TObject (Line 183, "MainUnit.pas" + 3) + $9
+[004D51FB] System.Classes.TBasicAction.Execute$qqrv + $F
+[0052ED23] Vcl.ActnList.Actnlist.TCustomAction.Execute$qqrv + $93
+[004D509B] System.Classes.TBasicActionLink.Execute$qqrp25System.Classes.TComponent + $13
+[0054B444] Vcl.Controls.TControl.Click$qqrv + $58
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0060E9CC] Vcl.Forms.TCustomForm.WMCommand$qqrr26Winapi.Messages.TWMCommand + $2C
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0060B7D9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage + $60D
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+
+19.12.2014 02:44:39:720 | Error | AMIX | Артём | 15172 | AutoWebSearch.exe | { Original Exception - Could not load SSL library. }
+[006ABFCB] IdSSLOpenSSL.TIdSSLContext.$bctr$qqrv + $53
+[006ABB68] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Init$qqrv + $18
+[006AB943] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.StartSSL$qqrv + $1B
+[006AB91B] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.ConnectClient$qqrv + $6B
+[0064F103] IdIOHandlerSocket.TIdIOHandlerSocket.Open$qqrv + $63
+[006AB9F3] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Open$qqrv + $7
+[0064AEA1] IdTCPClient.TIdTCPClientCustom.Connect$qqrv + $23D
+[0067C184] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect$qqrv + $A4
+[0068AE93] IdSMTP.TIdSMTP.Connect$qqrv + $17
+[0082309F] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 189, "umpgSendMail.pas" + 36) + $8
+[00823F09] settings.TFormSettings.BtTestMailClick$qqrp14System.TObject (Line 145, "settings.pas" + 50) + $3
+[0054B45B] Vcl.Controls.TControl.Click$qqrv + $6F
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054F654] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $1F4
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[00408D77] System.TMonitor.Exit$qqrxp14System.TObject + $F
+[005261E3] Vcl.Graphics.FreeMemoryContexts$qqrv + $9B
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[0054F07D] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $41
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00610256] Vcl.Forms.TCustomForm.ShowModal$qqrv + $1AA
+[008583D9] MainUnit.TFormMain.Action3Execute$qqrp14System.TObject (Line 183, "MainUnit.pas" + 3) + $9
+[004D51FB] System.Classes.TBasicAction.Execute$qqrv + $F
+[0052ED23] Vcl.ActnList.Actnlist.TCustomAction.Execute$qqrv + $93
+[004D509B] System.Classes.TBasicActionLink.Execute$qqrp25System.Classes.TComponent + $13
+[0054B444] Vcl.Controls.TControl.Click$qqrv + $58
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0060E9CC] Vcl.Forms.TCustomForm.WMCommand$qqrr26Winapi.Messages.TWMCommand + $2C
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0060B7D9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage + $60D
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+
+19.12.2014 02:47:32:945 | Error | AMIX | Артём | 15172 | AutoWebSearch.exe | { Original Exception - Could not load SSL library. }
+[006ABFCB] IdSSLOpenSSL.TIdSSLContext.$bctr$qqrv + $53
+[006ABB68] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Init$qqrv + $18
+[006AB943] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.StartSSL$qqrv + $1B
+[006AB91B] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.ConnectClient$qqrv + $6B
+[0064F103] IdIOHandlerSocket.TIdIOHandlerSocket.Open$qqrv + $63
+[006AB9F3] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Open$qqrv + $7
+[0064AEA1] IdTCPClient.TIdTCPClientCustom.Connect$qqrv + $23D
+[0067C184] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect$qqrv + $A4
+[0068AE93] IdSMTP.TIdSMTP.Connect$qqrv + $17
+[0082309F] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 189, "umpgSendMail.pas" + 36) + $8
+[00823F09] settings.TFormSettings.BtTestMailClick$qqrp14System.TObject (Line 145, "settings.pas" + 50) + $3
+[0054B45B] Vcl.Controls.TControl.Click$qqrv + $6F
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054F654] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $1F4
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[00408D77] System.TMonitor.Exit$qqrxp14System.TObject + $F
+[005261E3] Vcl.Graphics.FreeMemoryContexts$qqrv + $9B
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[0054F07D] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $41
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00610256] Vcl.Forms.TCustomForm.ShowModal$qqrv + $1AA
+[008583D9] MainUnit.TFormMain.Action3Execute$qqrp14System.TObject (Line 183, "MainUnit.pas" + 3) + $9
+[004D51FB] System.Classes.TBasicAction.Execute$qqrv + $F
+[0052ED23] Vcl.ActnList.Actnlist.TCustomAction.Execute$qqrv + $93
+[004D509B] System.Classes.TBasicActionLink.Execute$qqrp25System.Classes.TComponent + $13
+[0054B444] Vcl.Controls.TControl.Click$qqrv + $58
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0060E9CC] Vcl.Forms.TCustomForm.WMCommand$qqrr26Winapi.Messages.TWMCommand + $2C
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0060B7D9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage + $60D
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+
+19.12.2014 02:47:51:046 | Error | AMIX | Артём | 15172 | AutoWebSearch.exe | { Original Exception - Could not load SSL library. }
+[006ABFCB] IdSSLOpenSSL.TIdSSLContext.$bctr$qqrv + $53
+[006ABB68] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Init$qqrv + $18
+[006AB943] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.StartSSL$qqrv + $1B
+[006AB91B] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.ConnectClient$qqrv + $6B
+[0064F103] IdIOHandlerSocket.TIdIOHandlerSocket.Open$qqrv + $63
+[006AB9F3] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Open$qqrv + $7
+[0064AEA1] IdTCPClient.TIdTCPClientCustom.Connect$qqrv + $23D
+[0067C184] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect$qqrv + $A4
+[0068AE93] IdSMTP.TIdSMTP.Connect$qqrv + $17
+[0082309F] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 189, "umpgSendMail.pas" + 36) + $8
+[00823F09] settings.TFormSettings.BtTestMailClick$qqrp14System.TObject (Line 145, "settings.pas" + 50) + $3
+[0054B45B] Vcl.Controls.TControl.Click$qqrv + $6F
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[006AFFFB] IdHashMessageDigest.TIdHashMessageDigest5.MDCoder$qqrv + $837
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054F654] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $1F4
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[00408D77] System.TMonitor.Exit$qqrxp14System.TObject + $F
+[005261E3] Vcl.Graphics.FreeMemoryContexts$qqrv + $9B
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[0054F07D] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $41
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00610256] Vcl.Forms.TCustomForm.ShowModal$qqrv + $1AA
+[008583D9] MainUnit.TFormMain.Action3Execute$qqrp14System.TObject (Line 183, "MainUnit.pas" + 3) + $9
+[004D51FB] System.Classes.TBasicAction.Execute$qqrv + $F
+[0052ED23] Vcl.ActnList.Actnlist.TCustomAction.Execute$qqrv + $93
+[004D509B] System.Classes.TBasicActionLink.Execute$qqrp25System.Classes.TComponent + $13
+[0054B444] Vcl.Controls.TControl.Click$qqrv + $58
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0060E9CC] Vcl.Forms.TCustomForm.WMCommand$qqrr26Winapi.Messages.TWMCommand + $2C
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0060B7D9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage + $60D
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+
+19.12.2014 02:54:00:045 | Error | AMIX | Артём | 15172 | AutoWebSearch.exe | { Original Exception - Could not load SSL library. }
+[006ABFCB] IdSSLOpenSSL.TIdSSLContext.$bctr$qqrv + $53
+[006ABB68] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Init$qqrv + $18
+[006AB943] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.StartSSL$qqrv + $1B
+[006AB91B] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.ConnectClient$qqrv + $6B
+[0064F103] IdIOHandlerSocket.TIdIOHandlerSocket.Open$qqrv + $63
+[006AB9F3] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Open$qqrv + $7
+[0064AEA1] IdTCPClient.TIdTCPClientCustom.Connect$qqrv + $23D
+[0067C184] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect$qqrv + $A4
+[0068AE93] IdSMTP.TIdSMTP.Connect$qqrv + $17
+[0082309F] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 189, "umpgSendMail.pas" + 36) + $8
+[00823F09] settings.TFormSettings.BtTestMailClick$qqrp14System.TObject (Line 145, "settings.pas" + 50) + $3
+[0054B45B] Vcl.Controls.TControl.Click$qqrv + $6F
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054F654] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $1F4
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[00408D77] System.TMonitor.Exit$qqrxp14System.TObject + $F
+[005261E3] Vcl.Graphics.FreeMemoryContexts$qqrv + $9B
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[0054F07D] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $41
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00610256] Vcl.Forms.TCustomForm.ShowModal$qqrv + $1AA
+[008583D9] MainUnit.TFormMain.Action3Execute$qqrp14System.TObject (Line 183, "MainUnit.pas" + 3) + $9
+[004D51FB] System.Classes.TBasicAction.Execute$qqrv + $F
+[0052ED23] Vcl.ActnList.Actnlist.TCustomAction.Execute$qqrv + $93
+[004D509B] System.Classes.TBasicActionLink.Execute$qqrp25System.Classes.TComponent + $13
+[0054B444] Vcl.Controls.TControl.Click$qqrv + $58
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0060E9CC] Vcl.Forms.TCustomForm.WMCommand$qqrr26Winapi.Messages.TWMCommand + $2C
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0060B7D9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage + $60D
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+
+19.12.2014 03:18:41:674 | Error | AMIX | Артём | 15172 | AutoWebSearch.exe | { Original Exception - Could not load SSL library. }
+[006ABFCB] IdSSLOpenSSL.TIdSSLContext.$bctr$qqrv + $53
+[006ABB68] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Init$qqrv + $18
+[006AB943] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.StartSSL$qqrv + $1B
+[006AB91B] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.ConnectClient$qqrv + $6B
+[0064F103] IdIOHandlerSocket.TIdIOHandlerSocket.Open$qqrv + $63
+[006AB9F3] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Open$qqrv + $7
+[0064AEA1] IdTCPClient.TIdTCPClientCustom.Connect$qqrv + $23D
+[0067C184] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect$qqrv + $A4
+[0068AE93] IdSMTP.TIdSMTP.Connect$qqrv + $17
+[0082309F] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 189, "umpgSendMail.pas" + 36) + $8
+[00823F09] settings.TFormSettings.BtTestMailClick$qqrp14System.TObject (Line 145, "settings.pas" + 50) + $3
+[0054B45B] Vcl.Controls.TControl.Click$qqrv + $6F
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054F654] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $1F4
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[00408D77] System.TMonitor.Exit$qqrxp14System.TObject + $F
+[005261E3] Vcl.Graphics.FreeMemoryContexts$qqrv + $9B
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[0054F07D] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $41
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00610256] Vcl.Forms.TCustomForm.ShowModal$qqrv + $1AA
+[008583D9] MainUnit.TFormMain.Action3Execute$qqrp14System.TObject (Line 183, "MainUnit.pas" + 3) + $9
+[004D51FB] System.Classes.TBasicAction.Execute$qqrv + $F
+[0052ED23] Vcl.ActnList.Actnlist.TCustomAction.Execute$qqrv + $93
+[004D509B] System.Classes.TBasicActionLink.Execute$qqrp25System.Classes.TComponent + $13
+[0054B444] Vcl.Controls.TControl.Click$qqrv + $58
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0060E9CC] Vcl.Forms.TCustomForm.WMCommand$qqrr26Winapi.Messages.TWMCommand + $2C
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0060B7D9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage + $60D
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+

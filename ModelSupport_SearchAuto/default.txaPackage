@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <node uin="izsw6spzdkr_n">
+    <property name="$metaclass" value="Actor" />
+    <property name="$name" value="Actor1" />
+    <link uin="ujtd9pqxddn_l">
+      <property name="$metaclass" value="Association Link" />
+      <property name="$name" value="Association Link1" />
+      <property name="@directed" value="1" />
+      <property name="@stereotype" value="communicate" />
+      <property name="@supplierNavigability" value="$supplierNavigableExplicitly" />
+      <participant referencedUin="design:node:::izsw6spzdkr_n" role="Client" />
+      <participant referencedUin="design:node:::6o0mz30aen_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="6o0mz30aen_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="детали поиска" />
+    <link uin="icbyg9yc7xm_l">
+      <property name="$metaclass" value="Generalization Link" />
+      <property name="$name" value="Generalization Link1" />
+      <participant referencedUin="design:node:::6o0mz30aen_n" role="Client" />
+      <participant referencedUin="design:node:::65yjoxoeqel_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="65yjoxoeqel_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="поиск на сайте" />
+    <link uin="0tvciwh26oh_l">
+      <property name="$metaclass" value="Generalization Link" />
+      <property name="$name" value="Generalization Link1" />
+      <participant referencedUin="design:node:::65yjoxoeqel_n" role="Client" />
+      <participant referencedUin="design:node:::kcr0d08zmrr_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="kcr0d08zmrr_n">
+    <property name="$metaclass" value="Use Case" />
+    <property name="$name" value="новые записи" />
+    <link uin="jann2vx00rh_l">
+      <property name="$metaclass" value="Association Link" />
+      <property name="$name" value="Association Link1" />
+      <property name="@directed" value="1" />
+      <property name="@stereotype" value="communicate" />
+      <participant referencedUin="design:node:::kcr0d08zmrr_n" role="Client" />
+      <participant referencedUin="design:node:::izsw6spzdkr_n" role="Supplier" />
+    </link>
+    <link uin="y002n1cyqf_l">
+      <property name="$metaclass" value="Extends Link" />
+      <property name="$name" value="Extends Link1" />
+      <participant referencedUin="design:node:::kcr0d08zmrr_n" role="Client" />
+      <participant referencedUin="design:node:::65yjoxoeqel_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="23fq0r7rgtmqz0bgr_n">
+    <property name="$metaclass" value="Start State" />
+    <property name="$name" value="Start State1" />
+    <link uin="awill6y5cfl_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition2" />
+      <participant referencedUin="design:node:::23fq0r7rgtmqz0bgr_n" role="Client" />
+      <participant referencedUin="design:node:::y2i82vcxtwq_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="k5ykyvbbczn6hkc1n_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="ожидание команд" />
+    <link uin="w5gtd1q7yrq_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::k5ykyvbbczn6hkc1n_n" role="Client" />
+      <participant referencedUin="design:node:::jk7tkjkpvzj_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="jk7tkjkpvzj_n">
+    <property name="$metaclass" value="State" />
+    <property name="$name" value="главное окно" />
+    <node uin="rmicij15jvksj1sfq_n">
+      <property name="$metaclass" value="Deferred Event" />
+      <property name="$name" value="Список поиска" />
+    </node>
+    <node uin="mlr1886fxplkg3g1g_n">
+      <property name="$metaclass" value="Deferred Event" />
+      <property name="$name" value="настройки" />
+    </node>
+    <node uin="ba1indi3awf_n">
+      <property name="$metaclass" value="Deferred Event" />
+      <property name="$name" value="Запуск поиска" />
+    </node>
+    <link uin="0y1ilq3gd6h_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::jk7tkjkpvzj_n" role="Client" />
+      <participant referencedUin="design:node:::6fyzfr41tyk_n" role="Supplier" />
+    </link>
+    <link uin="z0kxcb4ieco6s6hgq_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition2" />
+      <participant referencedUin="design:node:::jk7tkjkpvzj_n" role="Client" />
+      <participant referencedUin="design:node:::05ksbl4zugdtngtgl_n" role="Supplier" />
+    </link>
+    <link uin="0vnekfi280sarnwzs_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition3" />
+      <participant referencedUin="design:node:::jk7tkjkpvzj_n" role="Client" />
+      <participant referencedUin="design:node:::vfjde1mynk7x5cdzj_n" role="Supplier" />
+    </link>
+    <node uin="hxhgi0qg3o_n">
+      <property name="$metaclass" value="Deferred Event" />
+      <property name="$name" value="Выход" />
+    </node>
+  </node>
+  <node uin="vfjde1mynk7x5cdzj_n">
+    <property name="$metaclass" value="State" />
+    <property name="$name" value="Окно настроек" />
+  </node>
+  <node uin="6fyzfr41tyk_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Окно поиска по каталогу" />
+  </node>
+  <node uin="y2i82vcxtwq_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Загрузка параметров" />
+    <link uin="yutqq7m5a9sbn0vvr_l">
+      <property name="$metaclass" value="Transition" />
+      <property name="$name" value="Transition1" />
+      <participant referencedUin="design:node:::y2i82vcxtwq_n" role="Client" />
+      <participant referencedUin="design:node:::k5ykyvbbczn6hkc1n_n" role="Supplier" />
+    </link>
+  </node>
+  <node uin="el03yz97os4l904sj_n">
+    <property name="$metaclass" value="Object" />
+    <property name="$name" value="Object1" />
+  </node>
+  <node uin="xv19cc9tsr57uhzsp_n">
+    <property name="$metaclass" value="Constraint" />
+    <property name="$name" value="Constraint1" />
+    <node uin="ql05mcikvr5itvymg_n">
+      <property name="$metaclass" value="ValueSpecification" />
+      <property name="$name" value="Value Specification1" />
+      <property name="@body" value="" />
+      <property name="@language" value="ocl" />
+    </node>
+  </node>
+  <node uin="05ksbl4zugdtngtgl_n">
+    <property name="$metaclass" value="Activity" />
+    <property name="$name" value="Запуск поиска по инет/каталогу" />
+  </node>
+</nodeSet>

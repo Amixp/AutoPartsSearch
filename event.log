@@ -1,0 +1,355 @@
+[26.10.2014 22:29:44]Information>>Start program.
+[26.10.2014 22:29:44]Information>>Открываем базу...
+[26.10.2014 22:29:45]Information>>Открываем таблицы...
+[26.10.2014 22:29:55]Information>>Start load...
+[26.10.2014 22:30:05]Information>>Do GetHtmlTable...
+[26.10.2014 22:30:05]Information>>URL:http://parts.japancar.ru/?code=parts&mode=old&cl=search_partsoldng&cl_partCode=3cvFLjAwNg_289&cl_marka=ISUZU&cl_model=ELF
+[26.10.2014 22:30:09]Information>>Найдено позиций: 0
+[26.10.2014 22:30:09]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P315109823.html
+[26.10.2014 22:30:09]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:09]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P214706086.html
+[26.10.2014 22:30:09]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:09]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P298328185.html
+[26.10.2014 22:30:09]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:09]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P214694797.html
+[26.10.2014 22:30:09]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:09]Information>>Append new record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P314932274.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P302443333.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P278329343.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P248268173.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P307116082.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P273859799.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P314647676.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P335791884.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P310639949.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P304026017.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P297362730.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P240709561.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P176854837.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P176854843.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P176854846.html
+[26.10.2014 22:30:10]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:10]Information>>Do GetURL Page...
+[26.10.2014 22:30:46]Information>>Do GetHtmlTable...
+[26.10.2014 22:30:46]Information>>URL:http://parts.japancar.ru/?code=parts&mode=old&cl=search_partsoldng&cl_partCode=3cvFLjAwNg_289&cl_marka=ISUZU&cl_model=ELF&page=2
+[26.10.2014 22:30:50]Information>>Найдено позиций: 0
+[26.10.2014 22:30:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P218333923.html
+[26.10.2014 22:30:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P227790632.html
+[26.10.2014 22:30:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P227790633.html
+[26.10.2014 22:30:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P235964228.html
+[26.10.2014 22:30:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P235964229.html
+[26.10.2014 22:30:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P235964231.html
+[26.10.2014 22:30:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P235964236.html
+[26.10.2014 22:30:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P235964238.html
+[26.10.2014 22:30:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P236842407.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P281601315.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P331682386.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P231436334.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P181888199.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P303540385.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P299437698.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P314579689.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P314579710.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P314579713.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P314297411.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P273817097.html
+[26.10.2014 22:30:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:30:51]Information>>Do GetURL Page...
+[26.10.2014 22:31:17]Information>>Do GetHtmlTable...
+[26.10.2014 22:31:17]Information>>URL:http://parts.japancar.ru/?code=parts&mode=old&cl=search_partsoldng&cl_partCode=3cvFLjAwNg_289&cl_marka=ISUZU&cl_model=ELF&page=3
+[26.10.2014 22:31:21]Information>>Найдено позиций: 0
+[26.10.2014 22:31:21]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P334105579.html
+[26.10.2014 22:31:21]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:21]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P330640705.html
+[26.10.2014 22:31:21]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:21]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P330640896.html
+[26.10.2014 22:31:21]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:21]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P331673022.html
+[26.10.2014 22:31:21]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:21]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P331673078.html
+[26.10.2014 22:31:21]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:21]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P331673080.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P331673083.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P331673084.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P331673086.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P331673087.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P326399595.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P326399946.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P326399948.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P326399949.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P326399953.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P326394945.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P245995793.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P279061406.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P279061407.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P279061597.html
+[26.10.2014 22:31:22]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:22]Information>>Do GetURL Page...
+[26.10.2014 22:31:46]Information>>Do GetHtmlTable...
+[26.10.2014 22:31:46]Information>>URL:http://parts.japancar.ru/?code=parts&mode=old&cl=search_partsoldng&cl_partCode=3cvFLjAwNg_289&cl_marka=ISUZU&cl_model=ELF&page=4
+[26.10.2014 22:31:50]Information>>Найдено позиций: 0
+[26.10.2014 22:31:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P246905492.html
+[26.10.2014 22:31:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P276929290.html
+[26.10.2014 22:31:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P276929313.html
+[26.10.2014 22:31:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P276929315.html
+[26.10.2014 22:31:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P333485521.html
+[26.10.2014 22:31:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P333493189.html
+[26.10.2014 22:31:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P333173484.html
+[26.10.2014 22:31:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P333173486.html
+[26.10.2014 22:31:50]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:50]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P328061861.html
+[26.10.2014 22:31:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P328061862.html
+[26.10.2014 22:31:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P328061863.html
+[26.10.2014 22:31:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P328061864.html
+[26.10.2014 22:31:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P257037348.html
+[26.10.2014 22:31:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P245184222.html
+[26.10.2014 22:31:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P239369984.html
+[26.10.2014 22:31:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P300392516.html
+[26.10.2014 22:31:51]Information>>Skip append: duplicate record.
+[26.10.2014 22:31:51]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P306811982.html
+[26.10.2014 22:34:28]Information>>Skip append: duplicate record.
+[26.10.2014 22:34:28]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P321418162.html
+[27.10.2014 1:54:10]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P283597961.html
+[27.10.2014 1:54:10]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:10]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P250961843.html
+[27.10.2014 1:54:10]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:10]Information>>Do GetURL Page...
+[27.10.2014 1:54:13]Information>>Do GetHtmlTable...
+[27.10.2014 1:54:13]Information>>URL:http://parts.japancar.ru/?code=parts&mode=old&cl=search_partsoldng&cl_partCode=3cvFLjAwNg_289&cl_marka=ISUZU&cl_model=ELF&page=5
+[27.10.2014 1:54:19]Information>>Найдено позиций: 0
+[27.10.2014 1:54:21]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P307069050.html
+[27.10.2014 1:54:22]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:22]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P332485696.html
+[27.10.2014 1:54:23]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:24]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312867919.html
+[27.10.2014 1:54:24]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:24]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312867920.html
+[27.10.2014 1:54:24]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:24]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P309081347.html
+[27.10.2014 1:54:24]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:24]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P311994372.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P324185475.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P248313286.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P280003069.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480838.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480839.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480840.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480841.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480842.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480843.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480844.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480845.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480846.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312480847.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P312417782.html
+[27.10.2014 1:54:25]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:25]Information>>Do GetURL Page...
+[27.10.2014 1:54:27]Information>>Do GetHtmlTable...
+[27.10.2014 1:54:27]Information>>URL:http://parts.japancar.ru/?code=parts&mode=old&cl=search_partsoldng&cl_partCode=3cvFLjAwNg_289&cl_marka=ISUZU&cl_model=ELF&page=6
+[27.10.2014 1:54:32]Information>>Найдено позиций: 0
+[27.10.2014 1:54:32]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P287691966.html
+[27.10.2014 1:54:32]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:32]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P287691967.html
+[27.10.2014 1:54:32]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:32]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P287691968.html
+[27.10.2014 1:54:32]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:32]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P287691969.html
+[27.10.2014 1:54:32]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:32]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P287691970.html
+[27.10.2014 1:54:32]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:33]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P287691971.html
+[27.10.2014 1:54:33]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:33]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P304370656.html
+[27.10.2014 1:54:33]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:33]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P304370657.html
+[27.10.2014 1:54:33]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:33]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P304370658.html
+[27.10.2014 1:54:33]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:33]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P271635523.html
+[27.10.2014 1:54:33]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:33]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P281147337.html
+[27.10.2014 1:54:33]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:33]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237140705.html
+[27.10.2014 1:54:33]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:33]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237140778.html
+[27.10.2014 1:54:33]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:33]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237140872.html
+[27.10.2014 1:54:34]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:34]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237368433.html
+[27.10.2014 1:54:34]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:34]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237368435.html
+[27.10.2014 1:54:34]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:34]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237424950.html
+[27.10.2014 1:54:34]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:34]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237424951.html
+[27.10.2014 1:54:34]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:34]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237139765.html
+[27.10.2014 1:54:34]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:34]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237139767.html
+[27.10.2014 1:54:34]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:34]Information>>Do GetURL Page...
+[27.10.2014 1:54:41]Information>>Do GetHtmlTable...
+[27.10.2014 1:54:41]Information>>URL:http://parts.japancar.ru/?code=parts&mode=old&cl=search_partsoldng&cl_partCode=3cvFLjAwNg_289&cl_marka=ISUZU&cl_model=ELF&page=7
+[27.10.2014 1:54:45]Information>>Найдено позиций: 0
+[27.10.2014 1:54:45]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237139769.html
+[27.10.2014 1:54:45]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:45]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237139811.html
+[27.10.2014 1:54:45]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:45]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237140289.html
+[27.10.2014 1:54:45]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:45]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237140290.html
+[27.10.2014 1:54:45]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:45]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P237139692.html
+[27.10.2014 1:54:45]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:45]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P263440321.html
+[27.10.2014 1:54:45]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:45]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P238811208.html
+[27.10.2014 1:54:46]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:46]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P279650132.html
+[27.10.2014 1:54:46]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:46]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P279650408.html
+[27.10.2014 1:54:46]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:46]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P279650410.html
+[27.10.2014 1:54:46]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:46]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P318771764.html
+[27.10.2014 1:54:46]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:46]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P318771765.html
+[27.10.2014 1:54:46]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:47]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P318771766.html
+[27.10.2014 1:54:47]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:47]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P264136957.html
+[27.10.2014 1:54:47]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:47]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P326424996.html
+[27.10.2014 1:54:47]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:47]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P297596318.html
+[27.10.2014 1:54:47]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:47]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P297596319.html
+[27.10.2014 1:54:47]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:47]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P297596320.html
+[27.10.2014 1:54:47]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:47]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P297596321.html
+[27.10.2014 1:54:47]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:47]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P297596323.html
+[27.10.2014 1:54:47]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:47]Information>>Do GetURL Page...
+[27.10.2014 1:54:53]Information>>Do GetHtmlTable...
+[27.10.2014 1:54:53]Information>>URL:http://parts.japancar.ru/?code=parts&mode=old&cl=search_partsoldng&cl_partCode=3cvFLjAwNg_289&cl_marka=ISUZU&cl_model=ELF&page=8
+[27.10.2014 1:54:56]Information>>Найдено позиций: 0
+[27.10.2014 1:54:56]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P297596324.html
+[27.10.2014 1:54:57]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:57]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P297596326.html
+[27.10.2014 1:54:57]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:57]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P230890081.html
+[27.10.2014 1:54:58]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:58]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P296457654.html
+[27.10.2014 1:54:58]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:58]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P325802831.html
+[27.10.2014 1:54:58]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:58]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P325802851.html
+[27.10.2014 1:54:58]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:58]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P325802852.html
+[27.10.2014 1:54:58]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:58]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P278104425.html
+[27.10.2014 1:54:58]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:58]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P240367270.html
+[27.10.2014 1:54:58]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:58]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P311233199.html
+[27.10.2014 1:54:58]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:59]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P309913434.html
+[27.10.2014 1:54:59]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:59]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P310065089.html
+[27.10.2014 1:54:59]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:59]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P300836862.html
+[27.10.2014 1:54:59]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:59]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P277947496.html
+[27.10.2014 1:54:59]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:59]Information>>NOT Unique string: http://parts.japancar.ru/jc/view/parts/P254866427.html
+[27.10.2014 1:54:59]Information>>Skip append: duplicate record.
+[27.10.2014 1:54:59]Information>>Do GetURL Page...
+[27.10.2014 1:55:02]Information>>Do GetHtmlTable...
+[27.10.2014 1:55:02]Information>>URL:http://parts.japancar.ru/?code=parts&mode=old&cl=search_partsoldng&cl_partCode=3cvFLjAwNg_289&cl_marka=ISUZU&cl_model=ELF&page=9
+[27.10.2014 1:55:05]Information>>End load.
+[27.10.2014 1:55:05]Information>>SendMail.Check...
+[27.10.2014 1:55:05]Information>>Assigning mail message properties
+[27.10.2014 1:55:05]Information>>SendMail.
+[27.10.2014 1:55:06]Information>>Attempting to send mail
+[27.10.2014 1:55:06]Information>>SendMail ready...
+[27.10.2014 1:55:14]Information>>письмо отправлено.
+[27.10.2014 1:55:14]Information>>Mail successfully sent and available for pickup by recipient !

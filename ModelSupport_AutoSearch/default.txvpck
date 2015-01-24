@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="8iytwojz6vjdrkkrk_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::bcsaau6i6qr_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,130,42" />
+    </reference>
+    <reference referencedUin="design:view:::qge6rh9k5gkn41mpq_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="159,1,115,42" />
+    </reference>
+    <reference referencedUin="design:view:::5difho9e79n_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="159,62,99,42" />
+    </reference>
+  </view>
+</nodeSet>

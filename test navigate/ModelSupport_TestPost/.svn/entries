@@ -1,0 +1,99 @@
+10
+
+dir
+0
+svn://93.88.5.178/delphi/SearchProject2/ModelSupport_TestPost
+svn://93.88.5.178/delphi
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6f400669-9766-e111-8fc7-000c29ed825c
+
+default.txvpck
+file
+2
+
+
+
+
+49b562a6e8445e87cde9c7c6262f2276
+2012-03-05T08:15:57.960685Z
+1
+artem
+
+Unit5
+dir
+
+
+
+add
+
+TestPost
+dir
+
+
+
+add
+
+post2
+dir
+
+
+
+add
+
+getstrparam
+dir
+
+
+
+add
+
+Общая  схема.txvact
+file
+2
+
+
+
+
+7272eb86e204c7f518ad415ad7fc50d7
+2012-03-05T08:15:57.960685Z
+1
+artem
+
+parse
+dir
+
+
+
+add
+
+default.txaPackage
+file
+2
+
+
+
+
+67dde70feb7471c1a52e5624ff9d0f9d
+2012-03-05T08:15:57.960685Z
+1
+artem
+

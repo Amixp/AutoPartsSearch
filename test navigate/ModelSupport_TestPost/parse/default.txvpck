@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="sk8f600r70o_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:TestPost:parse._img">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,116,190" />
+      <property name="bounds_setted_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:TestPost:parse._img.name" />
+      <reference referencedUin="delphi:e_field:src:TestPost:parse._img.url" />
+      <reference referencedUin="delphi:e_field:src:TestPost:parse._img.img" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:TestPost:parse._Tag">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="145,1,114,128" />
+      <reference referencedUin="delphi:e_field:src:TestPost:parse._Tag.name" />
+      <reference referencedUin="delphi:e_field:src:TestPost:parse._Tag.text" />
+      <reference referencedUin="delphi:e_field:src:TestPost:parse._Tag.params" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:TestPost:parse.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GenName()" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetTag(System.string,System.string,System.string,ref@System.Integer,ref@parse._Tag)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.FirstDelimiter(System.string,System.string,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetScript(System.string)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetImg(System.string)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetTagName(System.string,ref@System.Integer,ref@System.Integer,ref@System.Integer,ref@System.Integer,ref@System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.ParseTable(System.string,Grids.TStringGrid)" />
+      <reference referencedUin="delphi:e_method:src:TestPost:parse.@unitclass.GetImgs(System.string,ref@parse._img[])" />
+    </reference>
+    <reference referencedUin="design:view:::18cg3vxvv5p_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="145,148,115,42" />
+    </reference>
+    <reference referencedUin="design:view:::5o8odrzfafp_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="320,60,160,42" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:TestPost:parse._Imgs">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="160,300,128,36" />
+      <property name="location_set_by_user" value="True" />
+    </reference>
+  </view>
+</nodeSet>

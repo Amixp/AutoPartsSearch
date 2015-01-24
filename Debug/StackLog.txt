@@ -1,0 +1,339 @@
+30.12.2014 03:40:52:297 | Error | W8 | Artem | 2884 | AutoWebSearch.exe | { Original Exception - Could not load SSL library. }
+[006ABFCB] IdSSLOpenSSL.TIdSSLContext.$bctr$qqrv + $53
+[006ABB68] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Init$qqrv + $18
+[006AB943] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.StartSSL$qqrv + $1B
+[006AB91B] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.ConnectClient$qqrv + $6B
+[0064F103] IdIOHandlerSocket.TIdIOHandlerSocket.Open$qqrv + $63
+[006AB9F3] IdSSLOpenSSL.TIdSSLIOHandlerSocketOpenSSL.Open$qqrv + $7
+[0064AEA1] IdTCPClient.TIdTCPClientCustom.Connect$qqrv + $23D
+[0067C184] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect$qqrv + $A4
+[0068AE93] IdSMTP.TIdSMTP.Connect$qqrv + $17
+[008233D7] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 189, "umpgSendMail.pas" + 36) + $8
+[00824549] settings.TFormSettings.BtTestMailClick$qqrp14System.TObject (Line 148, "settings.pas" + 50) + $3
+[0054B45B] Vcl.Controls.TControl.Click$qqrv + $6F
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054F654] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $1F4
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00610256] Vcl.Forms.TCustomForm.ShowModal$qqrv + $1AA
+[00858A61] MainUnit.TFormMain.Action3Execute$qqrp14System.TObject (Line 183, "MainUnit.pas" + 3) + $9
+[004D51FB] System.Classes.TBasicAction.Execute$qqrv + $F
+[0052ED23] Vcl.ActnList.Actnlist.TCustomAction.Execute$qqrv + $93
+[004D509B] System.Classes.TBasicActionLink.Execute$qqrp25System.Classes.TComponent + $13
+[0054B444] Vcl.Controls.TControl.Click$qqrv + $58
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0060E9CC] Vcl.Forms.TCustomForm.WMCommand$qqrr26Winapi.Messages.TWMCommand + $2C
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0060B7D9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage + $60D
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[00616B2F] Vcl.Forms.TApplication.DispatchAction$qqrip27System.Classes.TBasicAction + $87
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004AA427) [008AB427]
+{ _______End of the exception stact trace block_______ }
+ 
+
+30.12.2014 03:48:32:470 | Error | W8 | Artem | 5004 | AutoWebSearch.exe | { Original Exception - Cannot create file "\\Amix\проекты\SearchAutoCat\Debug\debug.log". Отказано в доступе }
+[004C1901] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $125
+[004087B7] System.@ClassCreate$qqrpvzc + $7
+[004C17B8] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringus + $20
+[0079C1FB] Cromis.SimpleLog.Simplelog.TLogInstance.InitializeStreaming$qqrv (Line 441, "Cromis.SimpleLog.pas" + 11) + $F
+[0079C2AB] Cromis.SimpleLog.Simplelog.TLogInstance.LogEvent$qqrx20System.UnicodeStringx25Cromis.Simplelog.TLogType (Line 456, "Cromis.SimpleLog.pas" + 1) + $3
+[0079B67D] Cromis.SimpleLog.Simplelog.TSimpleLog.LogEvent$qqrx20System.UnicodeStringt1x25Cromis.Simplelog.TLogType (Line 236, "Cromis.SimpleLog.pas" + 9) + $9
+[004067FD] System.@ReallocMem$qqrrpvi + $D
+[008797AF] MainUnit.TFormMain.Log$qqr20System.UnicodeStringi (Line 329, "MainUnit.pas" + 47) + $27
+[004C1899] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $BD
+[0042CD5C] System.SysUtils.Sysutils.Exception.RaisingException$qqrp23System.TExceptionRecord + $8
+[0042D36E] System.SysUtils.Sysutils.RaiseExceptObject$qqrp23System.TExceptionRecord + $1E
+[0075D569] JclHookExcept.DoExceptNotify$qqrp14System.TObjectpvot2 + $11
+[0075D6DC] JclHookExcept.HookedRaiseException$qqsuiuiuip33Jclhookexcept.TExceptionArguments + $58
+[004C1899] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $BD
+[004087B7] System.@ClassCreate$qqrpvzc + $7
+[004C17B8] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringus + $20
+[004BBCC0] System.Classes.TStrings.SaveToFile$qqrx20System.UnicodeStringp25System.Sysutils.TEncoding + $18
+[004BBC9E] System.Classes.TStrings.SaveToFile$qqrx20System.UnicodeString + $6
+[00769B66] JvDebugHandler.TJvDebugHandler.ExceptionNotifier$qqrp14System.TObjectpvo + $2D6
+[0075D43F] JclHookExcept.TNotifierItem.DoNotify$qqrp14System.TObjectpvot2 + $43
+[0075D627] JclHookExcept.DoExceptNotify$qqrp14System.TObjectpvot2 + $CF
+[004C1901] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $125
+[0075D6D0] JclHookExcept.HookedRaiseException$qqsuiuiuip33Jclhookexcept.TExceptionArguments + $4C
+[004C1901] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $125
+[004087B7] System.@ClassCreate$qqrpvzc + $7
+[004C17B8] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringus + $20
+[0079C1FB] Cromis.SimpleLog.Simplelog.TLogInstance.InitializeStreaming$qqrv (Line 441, "Cromis.SimpleLog.pas" + 11) + $F
+[0040E4DF] System.UTF8ToUnicodeString$qqrrx28System.%SmallString$iuc$255% + $67
+[0079C2AB] Cromis.SimpleLog.Simplelog.TLogInstance.LogEvent$qqrx20System.UnicodeStringx25Cromis.Simplelog.TLogType (Line 456, "Cromis.SimpleLog.pas" + 1) + $3
+[0079B67D] Cromis.SimpleLog.Simplelog.TSimpleLog.LogEvent$qqrx20System.UnicodeStringt1x25Cromis.Simplelog.TLogType (Line 236, "Cromis.SimpleLog.pas" + 9) + $9
+[008796B7] MainUnit.TFormMain.Log$qqr20System.UnicodeStringi (Line 300, "MainUnit.pas" + 18) + $12
+[00879422] MainUnit.TFormMain.FormCreate$qqrp14System.TObject (Line 253, "MainUnit.pas" + 43) + $A
+[0060A555] Vcl.Forms.TCustomForm.DoCreate$qqrv + $31
+[0060A175] Vcl.Forms.TCustomForm.AfterConstruction$qqrv + $11
+[00408825] System.@AfterConstruction$qqrxp14System.TObject + $1D
+[0060A127] Vcl.Forms.TCustomForm.$bctr$qqrp25System.Classes.TComponent + $19B
+[0061506E] Vcl.Forms.TApplication.CreateForm$qqrp17System.TMetaClasspv + $76
+(004CB321) [008CC321]
+{ _______End of the exception stact trace block_______ }
+ 
+
+30.12.2014 03:51:21:443 | Error | W8 | Artem | 5920 | AutoWebSearch.exe | { Original Exception - Cannot create file "\\Amix\проекты\SearchAutoCat\Debug\debug.log". Отказано в доступе }
+[004C1901] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $125
+[004087B7] System.@ClassCreate$qqrpvzc + $7
+[004C17B8] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringus + $20
+[0079C1FB] Cromis.SimpleLog.Simplelog.TLogInstance.InitializeStreaming$qqrv (Line 441, "Cromis.SimpleLog.pas" + 11) + $F
+[0079C2AB] Cromis.SimpleLog.Simplelog.TLogInstance.LogEvent$qqrx20System.UnicodeStringx25Cromis.Simplelog.TLogType (Line 456, "Cromis.SimpleLog.pas" + 1) + $3
+[0079B67D] Cromis.SimpleLog.Simplelog.TSimpleLog.LogEvent$qqrx20System.UnicodeStringt1x25Cromis.Simplelog.TLogType (Line 236, "Cromis.SimpleLog.pas" + 9) + $9
+[004067FD] System.@ReallocMem$qqrrpvi + $D
+[008797AF] MainUnit.TFormMain.Log$qqr20System.UnicodeStringi (Line 329, "MainUnit.pas" + 47) + $27
+[004C1899] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $BD
+[0042CD5C] System.SysUtils.Sysutils.Exception.RaisingException$qqrp23System.TExceptionRecord + $8
+[0042D36E] System.SysUtils.Sysutils.RaiseExceptObject$qqrp23System.TExceptionRecord + $1E
+[0075D569] JclHookExcept.DoExceptNotify$qqrp14System.TObjectpvot2 + $11
+[0075D6DC] JclHookExcept.HookedRaiseException$qqsuiuiuip33Jclhookexcept.TExceptionArguments + $58
+[004C1899] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $BD
+[004087B7] System.@ClassCreate$qqrpvzc + $7
+[004C17B8] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringus + $20
+[004BBCC0] System.Classes.TStrings.SaveToFile$qqrx20System.UnicodeStringp25System.Sysutils.TEncoding + $18
+[004BBC9E] System.Classes.TStrings.SaveToFile$qqrx20System.UnicodeString + $6
+[00769B66] JvDebugHandler.TJvDebugHandler.ExceptionNotifier$qqrp14System.TObjectpvo + $2D6
+[0075D43F] JclHookExcept.TNotifierItem.DoNotify$qqrp14System.TObjectpvot2 + $43
+[0075D627] JclHookExcept.DoExceptNotify$qqrp14System.TObjectpvot2 + $CF
+[004C1901] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $125
+[0075D6D0] JclHookExcept.HookedRaiseException$qqsuiuiuip33Jclhookexcept.TExceptionArguments + $4C
+[004C1901] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $125
+[004087B7] System.@ClassCreate$qqrpvzc + $7
+[004C17B8] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringus + $20
+[0079C1FB] Cromis.SimpleLog.Simplelog.TLogInstance.InitializeStreaming$qqrv (Line 441, "Cromis.SimpleLog.pas" + 11) + $F
+[0040E4DF] System.UTF8ToUnicodeString$qqrrx28System.%SmallString$iuc$255% + $67
+[0079C2AB] Cromis.SimpleLog.Simplelog.TLogInstance.LogEvent$qqrx20System.UnicodeStringx25Cromis.Simplelog.TLogType (Line 456, "Cromis.SimpleLog.pas" + 1) + $3
+[0079B67D] Cromis.SimpleLog.Simplelog.TSimpleLog.LogEvent$qqrx20System.UnicodeStringt1x25Cromis.Simplelog.TLogType (Line 236, "Cromis.SimpleLog.pas" + 9) + $9
+[008796B7] MainUnit.TFormMain.Log$qqr20System.UnicodeStringi (Line 300, "MainUnit.pas" + 18) + $12
+[00879422] MainUnit.TFormMain.FormCreate$qqrp14System.TObject (Line 253, "MainUnit.pas" + 43) + $A
+[0060A555] Vcl.Forms.TCustomForm.DoCreate$qqrv + $31
+[0060A175] Vcl.Forms.TCustomForm.AfterConstruction$qqrv + $11
+[00408825] System.@AfterConstruction$qqrxp14System.TObject + $1D
+[0060A127] Vcl.Forms.TCustomForm.$bctr$qqrp25System.Classes.TComponent + $19B
+[0061506E] Vcl.Forms.TApplication.CreateForm$qqrp17System.TMetaClasspv + $76
+(004CB321) [008CC321]
+{ _______End of the exception stact trace block_______ }
+ 
+
+30.12.2014 04:23:41:497 | Error | W8 | Artem | 5328 | AutoWebSearch.exe | { Original Exception - Cannot open file "\\Amix\проекты\SearchAutoCat\Debug\autocar.jpeg". Не удается найти указанный файл }
+[004C1901] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringusui + $125
+[004C17B8] System.Classes.TFileStream.$bctr$qqrx20System.UnicodeStringus + $20
+[00624E84] IdGlobal.TIdReadFileExclusiveStream.$bctr$qqrx20System.UnicodeString + $18
+[0067F36A] IdAttachmentFile.TIdAttachmentFile.OpenLoadStream$qqrv + $E
+[0068168B] IdMessageClient.EncodeAttachment + $73
+[00682B4D] IdMessageClient.TIdMessageClient.SendBody$qqrp20Idmessage.TIdMessage + $D25
+[00683236] IdMessageClient.TIdMessageClient.SendMsg$qqrp20Idmessage.TIdMessageo + $8E
+[00688A6F] IdSMTPBase.TIdSMTPBase.SendNoPipelining$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList + $EF
+[00689367] IdSMTPBase.TIdSMTPBase.InternalSend$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList + $43
+[0068BD37] IdSMTP.TIdSMTP.InternalSend$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList + $33
+[0068946B] IdSMTPBase.TIdSMTPBase.Send$qqrp20Idmessage.TIdMessagep34Idemailaddress.TIdEMailAddressList + $4F
+[006893EE] IdSMTPBase.TIdSMTPBase.Send$qqrp20Idmessage.TIdMessage + $56
+[0082423F] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 190, "umpgSendMail.pas" + 37) + $E
+[00844B79] settings.TFormSettings.BtTestMailClick$qqrp14System.TObject (Line 150, "settings.pas" + 50) + $3
+[0054B45B] Vcl.Controls.TControl.Click$qqrv + $6F
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054F654] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $1F4
+[00408F94] System.TMonitor.TryEnter$qqrv + $28
+[00408B98] System.TMonitor.Enter$qqrui + $10
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00610256] Vcl.Forms.TCustomForm.ShowModal$qqrv + $1AA
+[008790B1] MainUnit.TFormMain.Action3Execute$qqrp14System.TObject (Line 183, "MainUnit.pas" + 3) + $9
+[004D51FB] System.Classes.TBasicAction.Execute$qqrv + $F
+[0052ED23] Vcl.ActnList.Actnlist.TCustomAction.Execute$qqrv + $93
+[004D509B] System.Classes.TBasicActionLink.Execute$qqrp25System.Classes.TComponent + $13
+[0054B444] Vcl.Controls.TControl.Click$qqrv + $58
+[0056D462] Vcl.StdCtrls.Stdctrls.TCustomButton.Click$qqrv + $1E
+[0056DFDC] Vcl.StdCtrls.Stdctrls.TCustomButton.CNCommand$qqrr26Winapi.Messages.TWMCommand + $10
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054AB40] Vcl.Controls.TControl.Perform$qqruiuii + $24
+[0054FB8B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv + $23
+[0055061B] Vcl.Controls.TWinControl.WMCommand$qqrr26Winapi.Messages.TWMCommand + $B
+[0060E9CC] Vcl.Forms.TCustomForm.WMCommand$qqrr26Winapi.Messages.TWMCommand + $2C
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0060B7D9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage + $60D
+[00408A38] System.TMonitor.CheckOwningThread$qqrv + $4
+[00408D26] System.TMonitor.Exit$qqrv + $6
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054FB36] Vcl.Controls.TWinControl.DefaultHandler$qqrpv + $E6
+[0054B8B0] Vcl.Controls.TControl.WMLButtonUp$qqrr24Winapi.Messages.TWMMouse + $10
+[00616B2F] Vcl.Forms.TApplication.DispatchAction$qqrip27System.Classes.TBasicAction + $87
+[0054AF05] Vcl.Controls.TControl.WndProc$qqrr24Winapi.Messages.TMessage + $2BD
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[0054F25B] Vcl.Controls.TWinControl.IsControlMouseMsg$qqrr24Winapi.Messages.TWMMouse + $13
+[0054FA25] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage + $5C5
+[0056D10C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage + $6C
+[0054F068] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage + $2C
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004CB457) [008CC457]
+{ _______End of the exception stact trace block_______ }
+ 
+
+30.12.2014 04:34:10:632 | Error | W8 | Artem | 2804 | AutoWebSearch.exe | { Original Exception - Could not convert variant of type (Null) into type (OleStr) }
+[0043677F] System.Variants.VarCastError$qqrxusxus + $6F
+[0043C147] System.Variants.@VarToUStr$qqrr20System.UnicodeStringrx8TVarData + $AF
+[00876190] SearchUnit.GetStrGrd2 (Line 278, "SearchUnit.pas" + 21) + $64
+[0087698D] SearchUnit.TFormSearch.SendData$qqrv (Line 348, "SearchUnit.pas" + 17) + $4
+[008754C2] SearchUnit.TFormSearch.SearchURLs$qqrv (Line 101, "SearchUnit.pas" + 29) + $F
+[00876DED] SearchUnit.TFormSearch.Timer1Timer$qqrp14System.TObject (Line 382, "SearchUnit.pas" + 7) + $3
+[005B5153] Vcl.ExtCtrls.Extctrls.TTimer.Timer$qqrv + $F
+[005B5037] Vcl.ExtCtrls.Extctrls.TTimer.WndProc$qqrr24Winapi.Messages.TMessage + $2B
+[004D5F0C] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614EA7] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614EEA] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[00615225] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004CB457) [008CC457]
+{ _______End of the exception stact trace block_______ }
+ 
+
+30.12.2014 20:21:56:632 | Error | AMIX | Артём | 11112 | AutoWebSearch.exe | { Original Exception - Range check error }
+[0086D41F] parse.GetImagesFromHTML$qqrp14Idhttp.TIdHTTPr20System.UnicodeStringrp23System.Classes.TStrings20System.UnicodeStringt4 (Line 590, "parse.pas" + 108) + $13
+[004068E2] System.ErrorAt$qqrucpv + $16
+[00406926] System.Error$qqr20System.TRuntimeError + $E
+[0086D41F] parse.GetImagesFromHTML$qqrp14Idhttp.TIdHTTPr20System.UnicodeStringrp23System.Classes.TStrings20System.UnicodeStringt4 (Line 590, "parse.pas" + 108) + $13
+[00873F9A] SearchUnit2.TSearch2.Search2$qqrv (Line 237, "SearchUnit2.pas" + 172) + $D
+[008771F4] SearchUnit.TFormSearch.Timer1Timer$qqrp14System.TObject (Line 392, "SearchUnit.pas" + 14) + $1
+[005B5203] Vcl.ExtCtrls.Extctrls.TTimer.Timer$qqrv + $F
+[005B50E7] Vcl.ExtCtrls.Extctrls.TTimer.WndProc$qqrr24Winapi.Messages.TMessage + $2B
+[004D5FBC] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614F57] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614F9A] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[006152D5] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004CB457) [008CC457]
+{ _______End of the exception stact trace block_______ }
+ 
+
+31.12.2014 01:27:23:299 | Error | COMP3 | artem | 3356 | AutoWebSearch.exe | { Original Exception - Connection Closed Gracefully. }
+[006467DB] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully$qqrv + $2F
+[0064C154] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect$qqroo + $54
+[00645C70] IdIOHandler.TIdIOHandler.ReadFromSource$qqroio + $204
+[00645646] IdIOHandler.TIdIOHandler.ReadLn$qqr20System.UnicodeStringii52System.%DelphiInterface$t24Idglobal.IIdTextEncoding% + $152
+[00645446] IdIOHandler.TIdIOHandler.ReadLn$qqr52System.%DelphiInterface$t24Idglobal.IIdTextEncoding% + $36
+[006459B7] IdIOHandler.TIdIOHandler.ReadLnWait$qqri52System.%DelphiInterface$t24Idglobal.IIdTextEncoding% + $73
+[0065213F] IdTCPConnection.TIdTCPConnection.GetInternalResponse$qqr52System.%DelphiInterface$t24Idglobal.IIdTextEncoding% + $63
+[00651AE9] IdTCPConnection.TIdTCPConnection.GetResponse$qqrpxsxi52System.%DelphiInterface$t24Idglobal.IIdTextEncoding% + $29
+[00651BF6] IdTCPConnection.TIdTCPConnection.SendCmd$qqr20System.UnicodeStringpxsxi52System.%DelphiInterface$t24Idglobal.IIdTextEncoding% + $5E
+[00651FE0] IdTCPConnection.TIdTCPConnection.SendCmd$qqr20System.UnicodeStringxs52System.%DelphiInterface$t24Idglobal.IIdTextEncoding% + $60
+[006889AA] IdSMTPBase.TIdSMTPBase.SendGreeting$qqrv + $D6
+[0068B807] IdSMTP.TIdSMTP.Connect$qqrv + $3B
+[008242FF] umpgSendMail.TmpgSendMail.SendMail$qqrv (Line 189, "umpgSendMail.pas" + 36) + $8
+[0086A1C3] UnitSend.SendMail2$qqr20System.UnicodeStringt1t1t1t1t1t1t1p23System.Classes.TStrings (Line 416, "UnitSend.pas" + 41) + $3
+[00873F84] SearchUnit2.TSearch2.Search2$qqrv (Line 242, "SearchUnit2.pas" + 177) + $E0
+[008770B0] SearchUnit.TFormSearch.Timer1Timer$qqrp14System.TObject (Line 394, "SearchUnit.pas" + 16) + $3
+[005B5203] Vcl.ExtCtrls.Extctrls.TTimer.Timer$qqrv + $F
+[005B50E7] Vcl.ExtCtrls.Extctrls.TTimer.WndProc$qqrr24Winapi.Messages.TMessage + $2B
+[004D5FBC] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00614F57] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614F9A] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[006152D5] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004CB457) [008CC457]
+{ _______End of the exception stact trace block_______ }
+ 
+
+09.01.2015 01:59:24:455 | Error | WIN-AD | Администратор | 1244 | AutoWebSearch.exe | { Original Exception - Range check error }
+[0086D41F] parse.GetImagesFromHTML$qqrp14Idhttp.TIdHTTPr20System.UnicodeStringrp23System.Classes.TStrings20System.UnicodeStringt4 (Line 625, "parse.pas" + 142) + $7
+[004068E2] System.ErrorAt$qqrucpv + $16
+[00406926] System.Error$qqr20System.TRuntimeError + $E
+[0086D41F] parse.GetImagesFromHTML$qqrp14Idhttp.TIdHTTPr20System.UnicodeStringrp23System.Classes.TStrings20System.UnicodeStringt4 (Line 625, "parse.pas" + 142) + $7
+[00873F9A] SearchUnit2.TSearch2.Search2$qqrv (Line 255, "SearchUnit2.pas" + 190) + $3
+[008771F4] SearchUnit.TFormSearch.Timer2Timer$qqrp14System.TObject (Line 417, "SearchUnit.pas" + 12) + $A
+[005B5203] Vcl.ExtCtrls.Extctrls.TTimer.Timer$qqrv + $F
+[005B50E7] Vcl.ExtCtrls.Extctrls.TTimer.WndProc$qqrr24Winapi.Messages.TMessage + $2B
+[004D5FBC] System.Classes.StdWndProc$qqsp6HWND__uiuiui + $14
+[00768C8A] Vcl.AppEvnts.Appevnts.TMultiCaster.DoActionUpdate$qqrp27System.Classes.TBasicActionro + $42
+[00545E98] Vcl.Controls.SendAppMessage$qqruiuii + $18
+[00614F57] Vcl.Forms.TApplication.ProcessMessage$qqrr6tagMSG + $F3
+[00614F9A] Vcl.Forms.TApplication.HandleMessage$qqrv + $A
+[006152D5] Vcl.Forms.TApplication.Run$qqrv + $C9
+(004CB457) [008CC457]
+{ _______End of the exception stact trace block_______ }
+ 
+

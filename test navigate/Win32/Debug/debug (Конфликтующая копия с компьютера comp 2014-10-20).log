@@ -1,0 +1,3014 @@
+16.10.2014 1:58:46 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError$qqrv at 0 in file 
+Message: Error: send AUTH command first.
+
+Call stack: 
+[0072E82A] IdReplySMTP.TIdReplySMTP.RaiseReplyError$qqrv
+[00660E0C] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult$qqrv
+[00660D7B] IdTCPConnection.TIdTCPConnection.GetResponse$qqrpxsxi52System.%DelphiInterface$t24Idglobal.IIdTextEncoding%
+[00660E6E] IdTCPConnection.TIdTCPConnection.SendCmd$qqr20System.UnicodeStringpxsxi52System.%DelphiInterface$t24Idglobal.IIdTextEncoding%
+[00661258] IdTCPConnection.TIdTCPConnection.SendCmd$qqr20System.UnicodeStringxs52System.%DelphiInterface$t24Idglobal.IIdTextEncoding%
+[0072F2B2] IdSMTPBase.TIdSMTPBase.SendNoPipelining$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList
+[0072FBE7] IdSMTPBase.TIdSMTPBase.InternalSend$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList
+[00732A17] IdSMTP.TIdSMTP.InternalSend$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList
+[0072FCEB] IdSMTPBase.TIdSMTPBase.Send$qqrp20Idmessage.TIdMessagep34Idemailaddress.TIdEMailAddressList
+[0072FC6E] IdSMTPBase.TIdSMTPBase.Send$qqrp20Idmessage.TIdMessage
+[007450E2] UnitSend.SendMail1$qqrp20Idmessage.TIdMessage (Line 252, "UnitSend.pas")
+[0074E813] MainUnit.TFormMain.Button3Click$qqrp14System.TObject (Line 531, "MainUnit.pas")
+[0053D107] Vcl.Controls.TControl.Click$qqrv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00541837] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00540D14] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[005417E2] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+16.10.2014 1:57:51 Exception EIdSASLMechNeeded occured in EIdException.Toss$qqrx20System.UnicodeString at 0 in file 
+Message: Need SASL mechanisms to login with it!!
+Call stack: 
+[00612D7F] IdException.EIdException.Toss$qqrx20System.UnicodeString
+[00731149] IdSASLCollection.TIdSASLEntries.LoginSASL$qqrx20System.UnicodeStringt1t1px20System.UnicodeStringxit4xip32Idtcpconnection.TIdTCPConnectionp23System.Classes.TStringst1
+[0073231F] IdSMTP.TIdSMTP.Authenticate$qqrv
+[007329F4] IdSMTP.TIdSMTP.InternalSend$qqrp20Idmessage.TIdMessagex20System.UnicodeStringp34Idemailaddress.TIdEMailAddressList
+[0072FCEB] IdSMTPBase.TIdSMTPBase.Send$qqrp20Idmessage.TIdMessagep34Idemailaddress.TIdEMailAddressList
+[0072FC6E] IdSMTPBase.TIdSMTPBase.Send$qqrp20Idmessage.TIdMessage
+[007450E2] UnitSend.SendMail1$qqrp20Idmessage.TIdMessage (Line 252, "UnitSend.pas")
+[0074E813] MainUnit.TFormMain.Button3Click$qqrp14System.TObject (Line 531, "MainUnit.pas")
+[0053D107] Vcl.Controls.TControl.Click$qqrv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00541837] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00540D14] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[005417E2] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+16.10.2014 1:55:50 Exception EIdTLSClientSSLIOHandlerRequred occured in TIdExplicitTLSClient.CheckIfCanUseTLS$qqrv at 0 in file 
+Message: SSL IOHandler is required for this setting
+Call stack: 
+[0071C36B] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.CheckIfCanUseTLS$qqrv
+[0071C654] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.SetUseTLS$qqr39Idexplicittlsclientserverbase.TIdUseTLS
+[00732B55] IdSMTP.TIdSMTP.SetUseTLS$qqr39Idexplicittlsclientserverbase.TIdUseTLS
+[0074E7F7] MainUnit.TFormMain.Button3Click$qqrp14System.TObject (Line 531, "MainUnit.pas")
+[0053D107] Vcl.Controls.TControl.Click$qqrv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00541837] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00540D14] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[005417E2] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+16.10.2014 1:51:05 Exception EIdTLSClientSSLIOHandlerRequred occured in TIdExplicitTLSClient.CheckIfCanUseTLS$qqrv at 0 in file 
+Message: SSL IOHandler is required for this setting
+Call stack: 
+[0071C36B] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.CheckIfCanUseTLS$qqrv
+[0071C654] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.SetUseTLS$qqr39Idexplicittlsclientserverbase.TIdUseTLS
+[00732B55] IdSMTP.TIdSMTP.SetUseTLS$qqr39Idexplicittlsclientserverbase.TIdUseTLS
+[0074E49F] MainUnit.TFormMain.Button3Click$qqrp14System.TObject (Line 530, "MainUnit.pas")
+[0053D107] Vcl.Controls.TControl.Click$qqrv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00541837] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00540D14] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[005417E2] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+16.10.2014 1:50:26 Exception EIdTLSClientSSLIOHandlerRequred occured in TIdExplicitTLSClient.CheckIfCanUseTLS$qqrv at 0 in file 
+Message: SSL IOHandler is required for this setting
+Call stack: 
+[0071C36B] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.CheckIfCanUseTLS$qqrv
+[0071C654] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.SetUseTLS$qqr39Idexplicittlsclientserverbase.TIdUseTLS
+[00732B55] IdSMTP.TIdSMTP.SetUseTLS$qqr39Idexplicittlsclientserverbase.TIdUseTLS
+[0074E49F] MainUnit.TFormMain.Button3Click$qqrp14System.TObject (Line 530, "MainUnit.pas")
+[0053D107] Vcl.Controls.TControl.Click$qqrv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00541837] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00540D14] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[005417E2] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+16.10.2014 1:48:05 Exception EIdTLSClientSSLIOHandlerRequred occured in TIdExplicitTLSClient.CheckIfCanUseTLS$qqrv at 0 in file 
+Message: SSL IOHandler is required for this setting
+Call stack: 
+[0071C36B] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.CheckIfCanUseTLS$qqrv
+[0071C654] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.SetUseTLS$qqr39Idexplicittlsclientserverbase.TIdUseTLS
+[00732B55] IdSMTP.TIdSMTP.SetUseTLS$qqr39Idexplicittlsclientserverbase.TIdUseTLS
+[0074E453] MainUnit.TFormMain.Button3Click$qqrp14System.TObject (Line 528, "MainUnit.pas")
+[0053D107] Vcl.Controls.TControl.Click$qqrv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00541837] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00540D14] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[005417E2] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005416D1] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00557860] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004CD8B0] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+19.06.2013 3:33:57 Exception EEncodingError occured in Sysutils.TMBCSEncoding.$bctr$qqriii at 0 in file 
+Message: Invalid code page
+Call stack: 
+[00431D98] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqriii
+[00431D1C] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqri
+[00431AB7] System.SysUtils.Sysutils.TEncoding.GetEncoding$qqri
+[0061FB0E] IdGlobalProtocols.ReadStringAsCharset$qqrp22System.Classes.TStreamx20System.UnicodeString
+[00670886] IdHTTP.TIdCustomHTTP.Get$qqr20System.UnicodeStringpsxi
+[0066D250] IdHTTP.TIdCustomHTTP.Get$qqr20System.UnicodeString
+[0071D3DD] UnitSend.GetHTTP$qqrp14Idhttp.TIdHTTP20System.UnicodeString (Line 524, "UnitSend.pas")
+[007243D8] MainUnit.TFormMain.Button1Click$qqrp14System.TObject (Line 409, "MainUnit.pas")
+[005322B7] Vcl.Controls.TControl.Click$qqrv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0053695B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[005D79A1] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage
+[00535E38] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[00536906] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+19.06.2013 3:33:39 Exception EEncodingError occured in Sysutils.TMBCSEncoding.$bctr$qqriii at 0 in file 
+Message: Invalid code page
+Call stack: 
+[00431D98] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqriii
+[00431D1C] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqri
+[00431AB7] System.SysUtils.Sysutils.TEncoding.GetEncoding$qqri
+[0061FB0E] IdGlobalProtocols.ReadStringAsCharset$qqrp22System.Classes.TStreamx20System.UnicodeString
+[00670886] IdHTTP.TIdCustomHTTP.Get$qqr20System.UnicodeStringpsxi
+[0066D250] IdHTTP.TIdCustomHTTP.Get$qqr20System.UnicodeString
+[0071D3DD] UnitSend.GetHTTP$qqrp14Idhttp.TIdHTTP20System.UnicodeString (Line 524, "UnitSend.pas")
+[007243D8] MainUnit.TFormMain.Button1Click$qqrp14System.TObject (Line 409, "MainUnit.pas")
+[005322B7] Vcl.Controls.TControl.Click$qqrv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0053695B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[005D79A1] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage
+[00535E38] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[00536906] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+19.06.2013 3:33:04 Exception EEncodingError occured in Sysutils.TMBCSEncoding.$bctr$qqriii at 0 in file 
+Message: Invalid code page
+Call stack: 
+[00431D98] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqriii
+[00431D1C] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqri
+[00431AB7] System.SysUtils.Sysutils.TEncoding.GetEncoding$qqri
+[0061FB0E] IdGlobalProtocols.ReadStringAsCharset$qqrp22System.Classes.TStreamx20System.UnicodeString
+[0066CFB2] IdHTTP.TIdCustomHTTP.Post$qqr20System.UnicodeStringp23System.Classes.TStringsp25System.Sysutils.TEncoding
+[0071D7F3] UnitSend.PostHTTP$qqrp14Idhttp.TIdHTTP20System.UnicodeStringp23System.Classes.TStrings (Line 614, "UnitSend.pas")
+[007241B6] MainUnit.TFormMain.Button1Click$qqrp14System.TObject (Line 377, "MainUnit.pas")
+[005322B7] Vcl.Controls.TControl.Click$qqrv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0053695B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[005D79A1] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage
+[00535E38] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[00536906] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+19.06.2013 3:32:56 Exception EEncodingError occured in Sysutils.TMBCSEncoding.$bctr$qqriii at 0 in file 
+Message: Invalid code page
+Call stack: 
+[00431D98] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqriii
+[00431D1C] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqri
+[00431AB7] System.SysUtils.Sysutils.TEncoding.GetEncoding$qqri
+[0061FB0E] IdGlobalProtocols.ReadStringAsCharset$qqrp22System.Classes.TStreamx20System.UnicodeString
+[0066CFB2] IdHTTP.TIdCustomHTTP.Post$qqr20System.UnicodeStringp23System.Classes.TStringsp25System.Sysutils.TEncoding
+[0071D7F3] UnitSend.PostHTTP$qqrp14Idhttp.TIdHTTP20System.UnicodeStringp23System.Classes.TStrings (Line 614, "UnitSend.pas")
+[00724038] MainUnit.TFormMain.Button1Click$qqrp14System.TObject (Line 355, "MainUnit.pas")
+[005322B7] Vcl.Controls.TControl.Click$qqrv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0053695B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[005D79A1] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage
+[00535E38] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[00536906] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+19.06.2013 3:32:49 Exception EEncodingError occured in Sysutils.TMBCSEncoding.$bctr$qqriii at 0 in file 
+Message: Invalid code page
+Call stack: 
+[00431D98] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqriii
+[00431D1C] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqri
+[00431AB7] System.SysUtils.Sysutils.TEncoding.GetEncoding$qqri
+[0061FB0E] IdGlobalProtocols.ReadStringAsCharset$qqrp22System.Classes.TStreamx20System.UnicodeString
+[0066CFB2] IdHTTP.TIdCustomHTTP.Post$qqr20System.UnicodeStringp23System.Classes.TStringsp25System.Sysutils.TEncoding
+[0071D7F3] UnitSend.PostHTTP$qqrp14Idhttp.TIdHTTP20System.UnicodeStringp23System.Classes.TStrings (Line 614, "UnitSend.pas")
+[00723F50] MainUnit.TFormMain.Button1Click$qqrp14System.TObject (Line 340, "MainUnit.pas")
+[005322B7] Vcl.Controls.TControl.Click$qqrv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0053695B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[005D79A1] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage
+[00535E38] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[00536906] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+19.06.2013 2:31:59 Exception EIdException occured in EIdException.Toss$qqrx20System.UnicodeString at 0 in file 
+Message: Only one TIdAntiFreeze can exist per application.
+Call stack: 
+[005F417B] IdException.EIdException.Toss$qqrx20System.UnicodeString
+[005F91D3] IdBaseComponent.TIdInitializerComponent.$bctr$qqrp25System.Classes.TComponent
+[0053250F] Vcl.Controls.TControl.Click$qqrv
+[00536A4D] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054CB64] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[00536BB3] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[00536A4D] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[005D7BF9] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage
+[00536090] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004C7740] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[00536B5E] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[00536A4D] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054CB64] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004C7740] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+18.06.2013 2:25:24 Exception EEncodingError occured in Sysutils.TMBCSEncoding.$bctr$qqriii at 0 in file 
+Message: Invalid code page
+Call stack: 
+[00431D98] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqriii
+[00431D1C] System.SysUtils.Sysutils.TMBCSEncoding.$bctr$qqri
+[00431AB7] System.SysUtils.Sysutils.TEncoding.GetEncoding$qqri
+[0061FB0E] IdGlobalProtocols.ReadStringAsCharset$qqrp22System.Classes.TStreamx20System.UnicodeString
+[0066CFB2] IdHTTP.TIdCustomHTTP.Post$qqr20System.UnicodeStringp23System.Classes.TStringsp25System.Sysutils.TEncoding
+[007223E0] Unitmail.PostHTTP$qqrp14Idhttp.TIdHTTP20System.UnicodeStringp23System.Classes.TStrings (Line 644, "Unitmail.pas")
+[007242B4] MainUnit.TFormMain.Button1Click$qqrp14System.TObject (Line 340, "MainUnit.pas")
+[005322B7] Vcl.Controls.TControl.Click$qqrv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0053695B] Vcl.Controls.DoControlMsg$qqrp6HWND__pv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[005D79A1] Vcl.Forms.TCustomForm.WndProc$qqrr24Winapi.Messages.TMessage
+[00535E38] Vcl.Controls.TWinControl.MainWndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+[00536906] Vcl.Controls.TWinControl.DefaultHandler$qqrpv
+[005367F5] Vcl.Controls.TWinControl.WndProc$qqrr24Winapi.Messages.TMessage
+[0054C90C] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc$qqrr24Winapi.Messages.TMessage
+[004C74E8] System.Classes.StdWndProc$qqsp6HWND__uiuiui
+
+
+27.12.2012 2:22:02 Exception EStringListError occured in Classes.TStringList.Delete at 0 in file 
+Message: List index out of bounds (0)
+Call stack: 
+[004556C2] System.Classes.Classes.TStringList.Delete
+[004556C2] System.Classes.Classes.TStringList.Delete
+[006726AE] IdMessageClient.TIdMessageClient.SendMsg
+[0067451D] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674EEB] IdSMTPBase.TIdSMTPBase.InternalSend
+[00677927] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007A98E1] Unitmail.SendMail2 (Line 471, "Unitmail.pas")
+[007B0BD1] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 2:20:22 Exception EStringListError occured in Classes.TStringList.Delete at 0 in file 
+Message: List index out of bounds (0)
+Call stack: 
+[004556C2] System.Classes.Classes.TStringList.Delete
+[004556C2] System.Classes.Classes.TStringList.Delete
+[006726AE] IdMessageClient.TIdMessageClient.SendMsg
+[0067451D] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674EEB] IdSMTPBase.TIdSMTPBase.InternalSend
+[00677927] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007A98DB] Unitmail.SendMail2 (Line 471, "Unitmail.pas")
+[007B0BCD] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 2:06:41 Exception EIdConnClosedGracefully occured in TIdIOHandler.RaiseConnClosedGracefully at 0 in file 
+Message: Connection Closed Gracefully.
+Call stack: 
+[0059A8D7] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully
+[0059F40C] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9E51] Unitmail.GetHTTP (Line 648, "Unitmail.pas")
+[007AC0EE] parse.GetImagesFromHTML (Line 544, "parse.pas")
+[007B0AB1] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:56:51 Exception EIdConnClosedGracefully occured in TIdIOHandler.RaiseConnClosedGracefully at 0 in file 
+Message: Connection Closed Gracefully.
+Call stack: 
+[0059A8D7] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully
+[0059F40C] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005DAB02] IdHTTP.TIdCustomHTTP.Get
+[005D7550] IdHTTP.TIdCustomHTTP.Get
+[007A9989] Unitmail.GetHTTP (Line 582, "Unitmail.pas")
+[007ABBC2] parse.GetImagesFromHTML (Line 501, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:51:44 Exception EIdException occured in EIdException.Toss at 0 in file 
+Message: Only one TIdAntiFreeze can exist per application.
+Call stack: 
+[0056057B] IdException.EIdException.Toss
+[00565493] IdBaseComponent.TIdInitializerComponent.$bctr
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:51:09 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: smtp14.mail.yandex.net Error: timeout exceeded
+
+Call stack: 
+[00673A0E] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4F60] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4EF1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4FBD] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A538A] IdTCPConnection.TIdTCPConnection.SendCmd
+[00677336] IdSMTP.TIdSMTP.Authenticate
+[00677904] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007A96CF] Unitmail.SendMail2 (Line 429, "Unitmail.pas")
+[007B08D1] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:32:49 Exception EIdConnClosedGracefully occured in TIdIOHandler.RaiseConnClosedGracefully at 0 in file 
+Message: Connection Closed Gracefully.
+Call stack: 
+[0059A8D7] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully
+[0059F40C] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007A9D9C] Unitmail.PostHTTP (Line 638, "Unitmail.pas")
+[007B0524] post2.TMainTest.Button1Click (Line 377, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:25:03 Exception EIdConnClosedGracefully occured in TIdIOHandler.RaiseConnClosedGracefully at 0 in file 
+Message: Connection Closed Gracefully.
+Call stack: 
+[0059A8D7] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully
+[0059F40C] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007A9D9C] Unitmail.PostHTTP (Line 638, "Unitmail.pas")
+[007B03C7] post2.TMainTest.Button1Click (Line 355, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:43 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:42 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8DAE] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:41 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:40 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8DAE] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:35 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:34 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8DAE] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:33 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:32 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8DAE] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:31 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:30 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8DAE] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:29 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:28 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8DAE] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:27 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:26 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8DAE] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:25 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:23 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8DAE] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007AC09D] parse.GetImagesFromHTML (Line 578, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:21:22 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007ABE42] parse.GetImagesFromHTML (Line 544, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:18:20 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059A0E9] IdIOHandler.TIdIOHandler.ReadBytes
+[0059A54A] IdIOHandler.TIdIOHandler.ReadStream
+[005D7EAF] IdHTTP.TIdCustomHTTP.ReadResult
+[005DA913] IdHTTP.TIdHTTPProtocol.ProcessResponse
+[005DADDC] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007A9BA5] Unitmail.GetHTTP (Line 613, "Unitmail.pas")
+[007ABE42] parse.GetImagesFromHTML (Line 544, "parse.pas")
+[007B0805] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:16:43 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: smtp12.mail.yandex.net Error: timeout exceeded
+
+Call stack: 
+[00673A0E] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4F60] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4EF1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4FBD] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A538A] IdTCPConnection.TIdTCPConnection.SendCmd
+[00677336] IdSMTP.TIdSMTP.Authenticate
+[00677904] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007A96CF] Unitmail.SendMail2 (Line 429, "Unitmail.pas")
+[007B08D1] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+27.12.2012 1:09:44 Exception EIdConnClosedGracefully occured in TIdIOHandler.RaiseConnClosedGracefully at 0 in file 
+Message: Connection Closed Gracefully.
+Call stack: 
+[0059A8D7] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully
+[0059F40C] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005DAB02] IdHTTP.TIdCustomHTTP.Get
+[005D7550] IdHTTP.TIdCustomHTTP.Get
+[007A9971] Unitmail.GetHTTP (Line 581, "Unitmail.pas")
+[007ABBAA] parse.GetImagesFromHTML (Line 501, "parse.pas")
+[007B07ED] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+25.12.2012 7:08:24 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10053
+Software caused connection abort.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[00677AF0] IdSMTP.TIdSMTP.Disconnect
+[005A5758] IdTCPConnection.TIdTCPConnection.Disconnect
+[007B08B9] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+25.12.2012 1:06:06 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[005796E7] IdStackWindows.TIdStackWindows.WSSend
+[00577A42] IdStackBSDBase.TIdStackBSDBase.Send
+[0059C4D9] IdSocketHandle.TIdSocketHandle.Send
+[0059F3A2] IdIOHandlerStack.TIdIOHandlerStack.WriteDataToTarget
+[0059B4AB] IdIOHandler.TIdIOHandler.WriteDirect
+[0059B12A] IdIOHandler.TIdIOHandler.Write
+[00598D49] IdIOHandler.TIdIOHandler.Write
+[0059A1C4] IdIOHandler.TIdIOHandler.WriteLn
+[00671DF4] IdMessageClient.TIdMessageClient.SendBody
+[006726AE] IdMessageClient.TIdMessageClient.SendMsg
+[0067451D] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674EEB] IdSMTPBase.TIdSMTPBase.InternalSend
+[00677927] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007A96B7] Unitmail.SendMail2 (Line 428, "Unitmail.pas")
+[007B08B9] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 23:24:10 Exception EFCreateError occured in Classes.TFileStream.$bctr at 0 in file 
+Message: Cannot create file "d:\temp_10.html". Отказано в доступе
+Call stack: 
+[004567FC] System.Classes.Classes.TFileStream.$bctr
+[0045671C] System.Classes.Classes.TFileStream.$bctr
+[00454950] System.Classes.Classes.TStrings.SaveToFile
+[0045492E] System.Classes.Classes.TStrings.SaveToFile
+[007ACE9A] Unitmail.SendMail2 (Line 408, "Unitmail.pas")
+[007AFBA9] post2.TMainTest.Button1Click (Line 419, "post2.pas")
+[004A9773] Vcl.Controls.Controls.TControl.Click
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADCB3] Vcl.Controls.Controls.DoControlMsg
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[0054518E] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD1B8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463170] System.Classes.ClassesStdWndProc
+[004ADC60] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463170] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 18:06:38 Exception EStringListError occured in Classes.TStringList.Get at 0 in file 
+Message: List index out of bounds (3)
+Call stack: 
+[004558A4] System.Classes.Classes.TStringList.Get
+
+
+23.12.2012 16:12:40 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D57F] IdStack.TIdStack.RaiseSocketError
+[0057D506] IdStack.TIdStack.RaiseLastSocketError
+[0057D471] IdStack.TIdStack.CheckForSocketError
+[00577A51] IdStackBSDBase.TIdStackBSDBase.Receive
+[00599895] IdIOHandler.TIdIOHandler.ReadLn
+[005996D9] IdIOHandler.TIdIOHandler.ReadLn
+[005A5523] IdTCPConnection.TIdTCPConnection.GetInternalResponse
+[005A4F1F] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A55F0] IdTCPConnection.TIdTCPConnection.GetResponse
+[007ACAC8] Unitmail.SendMail2 (Line 386, "Unitmail.pas")
+[007AF955] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A9773] Vcl.Controls.Controls.TControl.Click
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADCB3] Vcl.Controls.Controls.DoControlMsg
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[0054518E] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD1B8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463170] System.Classes.ClassesStdWndProc
+[004ADC60] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463170] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 15:50:23 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 11001
+Host not found.
+Call stack: 
+[0057D57F] IdStack.TIdStack.RaiseSocketError
+[0057A705] IdStackWindows.TIdStackWindows.HostByName
+[0057D251] IdStack.TIdStack.ResolveHost
+[0059F283] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B93] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D90] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D9222] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DADAF] IdHTTP.TIdCustomHTTP.DoRequest
+[005D6A3A] IdHTTP.TIdCustomHTTP.Post
+[005D71CC] IdHTTP.TIdCustomHTTP.Post
+[005D72D6] IdHTTP.TIdCustomHTTP.Post
+[007AD34C] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF2F0] post2.TMainTest.Button1Click (Line 329, "post2.pas")
+[004A9773] Vcl.Controls.Controls.TControl.Click
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADCB3] Vcl.Controls.Controls.DoControlMsg
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[0054518E] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD1B8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463170] System.Classes.ClassesStdWndProc
+[004ADC60] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463170] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 15:45:15 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 11001
+Host not found.
+Call stack: 
+[0057D57F] IdStack.TIdStack.RaiseSocketError
+[0057A705] IdStackWindows.TIdStackWindows.HostByName
+[0057D251] IdStack.TIdStack.ResolveHost
+[0059F283] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B93] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D90] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D9222] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DADAF] IdHTTP.TIdCustomHTTP.DoRequest
+[005D6A3A] IdHTTP.TIdCustomHTTP.Post
+[005D71CC] IdHTTP.TIdCustomHTTP.Post
+[005D72D6] IdHTTP.TIdCustomHTTP.Post
+[007AD34C] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF2F0] post2.TMainTest.Button1Click (Line 329, "post2.pas")
+[004A9773] Vcl.Controls.Controls.TControl.Click
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADCB3] Vcl.Controls.Controls.DoControlMsg
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[0054518E] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD1B8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463170] System.Classes.ClassesStdWndProc
+[004ADC60] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463170] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 15:42:27 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D57F] IdStack.TIdStack.RaiseSocketError
+[0057D506] IdStack.TIdStack.RaiseLastSocketError
+[0057D471] IdStack.TIdStack.CheckForSocketError
+[00577A51] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EFE3] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8D26] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D9222] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DADAF] IdHTTP.TIdCustomHTTP.DoRequest
+[005D6A3A] IdHTTP.TIdCustomHTTP.Post
+[005D71CC] IdHTTP.TIdCustomHTTP.Post
+[005D72D6] IdHTTP.TIdCustomHTTP.Post
+[007AD34C] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF2F0] post2.TMainTest.Button1Click (Line 329, "post2.pas")
+[004A9773] Vcl.Controls.Controls.TControl.Click
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADCB3] Vcl.Controls.Controls.DoControlMsg
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[0054518E] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD1B8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463170] System.Classes.ClassesStdWndProc
+[004ADC60] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463170] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 15:42:24 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D57F] IdStack.TIdStack.RaiseSocketError
+[0057D506] IdStack.TIdStack.RaiseLastSocketError
+[0057D471] IdStack.TIdStack.CheckForSocketError
+[00577A51] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EFE3] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAF33] IdHTTP.TIdCustomHTTP.DoRequest
+[005D6A3A] IdHTTP.TIdCustomHTTP.Post
+[005D71CC] IdHTTP.TIdCustomHTTP.Post
+[005D72D6] IdHTTP.TIdCustomHTTP.Post
+[007AD34C] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF2F0] post2.TMainTest.Button1Click (Line 329, "post2.pas")
+[004A9773] Vcl.Controls.Controls.TControl.Click
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADCB3] Vcl.Controls.Controls.DoControlMsg
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[0054518E] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD1B8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463170] System.Classes.ClassesStdWndProc
+[004ADC60] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463170] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 15:40:33 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D57F] IdStack.TIdStack.RaiseSocketError
+[0057D506] IdStack.TIdStack.RaiseLastSocketError
+[0057D471] IdStack.TIdStack.CheckForSocketError
+[00577A51] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EFE3] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005D8D26] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D9222] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DADAF] IdHTTP.TIdCustomHTTP.DoRequest
+[005D6A3A] IdHTTP.TIdCustomHTTP.Post
+[005D71CC] IdHTTP.TIdCustomHTTP.Post
+[005D72D6] IdHTTP.TIdCustomHTTP.Post
+[007AD34C] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF2F0] post2.TMainTest.Button1Click (Line 329, "post2.pas")
+[004A9773] Vcl.Controls.Controls.TControl.Click
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADCB3] Vcl.Controls.Controls.DoControlMsg
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[0054518E] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD1B8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463170] System.Classes.ClassesStdWndProc
+[004ADC60] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463170] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 15:40:27 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D57F] IdStack.TIdStack.RaiseSocketError
+[0057D506] IdStack.TIdStack.RaiseLastSocketError
+[0057D471] IdStack.TIdStack.CheckForSocketError
+[00577A51] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EFE3] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAF33] IdHTTP.TIdCustomHTTP.DoRequest
+[005D6A3A] IdHTTP.TIdCustomHTTP.Post
+[005D71CC] IdHTTP.TIdCustomHTTP.Post
+[005D72D6] IdHTTP.TIdCustomHTTP.Post
+[007AD34C] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF2F0] post2.TMainTest.Button1Click (Line 329, "post2.pas")
+[004A9773] Vcl.Controls.Controls.TControl.Click
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADCB3] Vcl.Controls.Controls.DoControlMsg
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[0054518E] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD1B8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463170] System.Classes.ClassesStdWndProc
+[004ADC60] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463170] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 15:38:00 Exception EIdReadTimeout occured in EIdException.Toss at 0 in file 
+Message: Read timed out.
+Call stack: 
+[005605C3] IdException.EIdException.Toss
+[00599895] IdIOHandler.TIdIOHandler.ReadLn
+[005996D9] IdIOHandler.TIdIOHandler.ReadLn
+[005DADBA] IdHTTP.TIdCustomHTTP.DoRequest
+[005D6A3A] IdHTTP.TIdCustomHTTP.Post
+[005D71CC] IdHTTP.TIdCustomHTTP.Post
+[005D72D6] IdHTTP.TIdCustomHTTP.Post
+[007AD34C] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF2F0] post2.TMainTest.Button1Click (Line 329, "post2.pas")
+[004A9773] Vcl.Controls.Controls.TControl.Click
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADCB3] Vcl.Controls.Controls.DoControlMsg
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[0054518E] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD1B8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463170] System.Classes.ClassesStdWndProc
+[004ADC60] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB63] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3670] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463170] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 15:32:35 Exception EFCreateError occured in Classes.TFileStream.$bctr at 0 in file 
+Message: Cannot create file "d:\temp_15:32:35.html". Синтаксическая ошибка в имени файла, имени папки или метке тома
+Call stack: 
+[004567B4] System.Classes.Classes.TFileStream.$bctr
+[004566D4] System.Classes.Classes.TFileStream.$bctr
+[00561807] IdGlobal.TIdFileCreateStream.$bctr
+[007ACBAB] Unitmail.SendMail2 (Line 405, "Unitmail.pas")
+[007AF8D9] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+23.12.2012 15:31:48 Exception EFCreateError occured in Classes.TFileStream.$bctr at 0 in file 
+Message: Cannot create file "d:\temp_15:31:48.html". Синтаксическая ошибка в имени файла, имени папки или метке тома
+Call stack: 
+[004567B4] System.Classes.Classes.TFileStream.$bctr
+[004566D4] System.Classes.Classes.TFileStream.$bctr
+[00561807] IdGlobal.TIdFileCreateStream.$bctr
+[007ACBAB] Unitmail.SendMail2 (Line 405, "Unitmail.pas")
+[007AF8D9] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 2:48:42 Exception EIdConnClosedGracefully occured in TIdIOHandler.RaiseConnClosedGracefully at 0 in file 
+Message: Connection Closed Gracefully.
+Call stack: 
+[0059A8D7] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully
+[0059F40C] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007AD081] Unitmail.GetHTTP (Line 604, "Unitmail.pas")
+[007B19F4] post2.TMainTest.GetImagesFromHTML (Line 682, "post2.pas")
+[007AF7B5] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 2:25:43 Exception EIdConnClosedGracefully occured in TIdIOHandler.RaiseConnClosedGracefully at 0 in file 
+Message: Connection Closed Gracefully.
+Call stack: 
+[0059A8D7] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully
+[0059F40C] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AD234] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF484] post2.TMainTest.Button1Click (Line 376, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 2:13:33 Exception EIdConnClosedGracefully occured in TIdIOHandler.RaiseConnClosedGracefully at 0 in file 
+Message: Connection Closed Gracefully.
+Call stack: 
+[0059A8D7] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully
+[0059F40C] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005DAB02] IdHTTP.TIdCustomHTTP.Get
+[005D7550] IdHTTP.TIdCustomHTTP.Get
+[007ACE21] Unitmail.GetHTTP (Line 573, "Unitmail.pas")
+[007B1729] post2.TMainTest.GetImagesFromHTML (Line 639, "post2.pas")
+[007AF771] post2.TMainTest.Button1Click (Line 414, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:32:49 Exception EFOpenError occured in Classes.TFileStream.$bctr at 0 in file 
+Message: Cannot open file "D:\Documents\Dropbox\Проекты\SearchAutoCat1\Project2\test navigate\Win32\Debug\img\005C420C9BB4805B.jpg". Не удается найти указанный файл
+Call stack: 
+[00456819] System.Classes.Classes.TFileStream.$bctr
+[004566D4] System.Classes.Classes.TFileStream.$bctr
+[00561840] IdGlobal.TIdReadFileExclusiveStream.$bctr
+[00671FCD] IdMessageClient.TIdMessageClient.SendBody
+[006726AE] IdMessageClient.TIdMessageClient.SendMsg
+[0067451D] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674EEB] IdSMTPBase.TIdSMTPBase.InternalSend
+[00677927] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007ACB67] Unitmail.SendMail2 (Line 420, "Unitmail.pas")
+[007AF83D] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:24:51 Exception EFOpenError occured in Classes.TFileStream.$bctr at 0 in file 
+Message: Cannot open file "D:\Documents\Dropbox\Проекты\SearchAutoCat1\Project2\test navigate\Win32\Debug\img\0058AD1B02067C31.jpg". Не удается найти указанный файл
+Call stack: 
+[00456819] System.Classes.Classes.TFileStream.$bctr
+[004566D4] System.Classes.Classes.TFileStream.$bctr
+[00561840] IdGlobal.TIdReadFileExclusiveStream.$bctr
+[00671FCD] IdMessageClient.TIdMessageClient.SendBody
+[006726AE] IdMessageClient.TIdMessageClient.SendMsg
+[0067451D] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674EEB] IdSMTPBase.TIdSMTPBase.InternalSend
+[00677927] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007ACB67] Unitmail.SendMail2 (Line 420, "Unitmail.pas")
+[007AF83D] post2.TMainTest.Button1Click (Line 418, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:24:24 Exception EIdConnClosedGracefully occured in TIdIOHandler.RaiseConnClosedGracefully at 0 in file 
+Message: Connection Closed Gracefully.
+Call stack: 
+[0059A8D7] IdIOHandler.TIdIOHandler.RaiseConnClosedGracefully
+[0059F40C] IdIOHandlerStack.TIdIOHandlerStack.CheckForDisconnect
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AD234] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF260] post2.TMainTest.Button1Click (Line 339, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:20:35 Exception EIdHTTPProtocolException occured in CheckException at 0 in file 
+Message: HTTP/1.1 404 Not Found
+Call stack: 
+[005DA4F8] IdHTTP.CheckException
+[005DA8A2] IdHTTP.TIdHTTPProtocol.ProcessResponse
+[005DADDC] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007AD03D] Unitmail.GetHTTP (Line 604, "Unitmail.pas")
+[007B1E3A] post2.TMainTest.GetImagesFromHTML (Line 753, "post2.pas")
+[007AF7C6] post2.TMainTest.Button1Click (Line 416, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:15:05 Exception EIdException occured in EIdException.Toss at 0 in file 
+Message: Only one TIdAntiFreeze can exist per application.
+Call stack: 
+[0056057B] IdException.EIdException.Toss
+[00565493] IdBaseComponent.TIdInitializerComponent.$bctr
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:13:25 Exception EFOpenError occured in Classes.TFileStream.$bctr at 0 in file 
+Message: Cannot open file "D:\Documents\Dropbox\Проекты\SearchAutoCat1\Project2\test navigate\Win32\Debug\img\004E555D9F569EA6.jpg". Не удается найти указанный файл
+Call stack: 
+[00456819] System.Classes.Classes.TFileStream.$bctr
+[004566D4] System.Classes.Classes.TFileStream.$bctr
+[00561840] IdGlobal.TIdReadFileExclusiveStream.$bctr
+[00671FCD] IdMessageClient.TIdMessageClient.SendBody
+[006726AE] IdMessageClient.TIdMessageClient.SendMsg
+[0067451D] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674EEB] IdSMTPBase.TIdSMTPBase.InternalSend
+[00677927] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007ACB67] Unitmail.SendMail2 (Line 420, "Unitmail.pas")
+[007AF887] post2.TMainTest.Button1Click (Line 420, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:08:12 Exception EIdSocketError occured in DoConnectTimeout at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0059F0B3] IdIOHandlerStack.DoConnectTimeout
+[0059F317] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B4B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D48] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D91DA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AD234] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF243] post2.TMainTest.Button1Click (Line 331, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:08:06 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[0057A7F5] IdStackWindows.TIdStackWindows.Connect
+[0059C399] IdSocketHandle.TIdSocketHandle.Connect
+[0059F482] IdIOHandlerStack.TIdConnectThread.Execute
+[004600FE] System.Classes.Classes.ThreadProc
+[00406F38] System.@SystemThreadWrapper
+
+
+22.12.2012 1:07:42 Exception EIdSocketError occured in DoConnectTimeout at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0059F0B3] IdIOHandlerStack.DoConnectTimeout
+[0059F317] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B4B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D48] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D91DA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AD234] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF243] post2.TMainTest.Button1Click (Line 331, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:07:35 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[0057A7F5] IdStackWindows.TIdStackWindows.Connect
+[0059C399] IdSocketHandle.TIdSocketHandle.Connect
+[0059F482] IdIOHandlerStack.TIdConnectThread.Execute
+[004600FE] System.Classes.Classes.ThreadProc
+[00406F38] System.@SystemThreadWrapper
+
+
+22.12.2012 1:07:11 Exception EIdConnectTimeout occured in EIdException.Toss at 0 in file 
+Message: Connect timed out.
+Call stack: 
+[0056057B] IdException.EIdException.Toss
+[0059F317] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B4B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D48] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D91DA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AD234] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF243] post2.TMainTest.Button1Click (Line 331, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 1:06:47 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[0057A7F5] IdStackWindows.TIdStackWindows.Connect
+[0059C399] IdSocketHandle.TIdSocketHandle.Connect
+[0059F482] IdIOHandlerStack.TIdConnectThread.Execute
+[004600FE] System.Classes.Classes.ThreadProc
+[00406F38] System.@SystemThreadWrapper
+
+
+22.12.2012 1:06:09 Exception EIdException occured in EIdException.Toss at 0 in file 
+Message: Only one TIdAntiFreeze can exist per application.
+Call stack: 
+[0056057B] IdException.EIdException.Toss
+[00565493] IdBaseComponent.TIdInitializerComponent.$bctr
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 0:58:24 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 11001
+Host not found.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057A6BD] IdStackWindows.TIdStackWindows.HostByName
+[0057D209] IdStack.TIdStack.ResolveHost
+[0059F23B] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B4B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D48] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D91DA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AD234] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF243] post2.TMainTest.Button1Click (Line 331, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 0:57:53 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 11001
+Host not found.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057A6BD] IdStackWindows.TIdStackWindows.HostByName
+[0057D209] IdStack.TIdStack.ResolveHost
+[0059F23B] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B4B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D48] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D91DA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AD234] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF243] post2.TMainTest.Button1Click (Line 331, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 0:57:29 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 11001
+Host not found.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057A6BD] IdStackWindows.TIdStackWindows.HostByName
+[0057D209] IdStack.TIdStack.ResolveHost
+[0059F23B] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B4B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D48] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D91DA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AD234] Unitmail.PostHTTP (Line 629, "Unitmail.pas")
+[007AF243] post2.TMainTest.Button1Click (Line 331, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 0:39:41 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 11001
+Host not found.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057A6BD] IdStackWindows.TIdStackWindows.HostByName
+[0057D209] IdStack.TIdStack.ResolveHost
+[0059F23B] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B4B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D48] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D91DA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AEBFD] post2.TMainTest.Button1Click (Line 331, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 0:38:12 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 11001
+Host not found.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057A6BD] IdStackWindows.TIdStackWindows.HostByName
+[0057D209] IdStack.TIdStack.ResolveHost
+[0059F23B] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B4B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D48] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D91DA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AEBFD] post2.TMainTest.Button1Click (Line 331, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 0:37:37 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 11001
+Host not found.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057A6BD] IdStackWindows.TIdStackWindows.HostByName
+[0057D209] IdStack.TIdStack.ResolveHost
+[0059F23B] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A2B4B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8D48] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D91DA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAD67] IdHTTP.TIdCustomHTTP.DoRequest
+[005D69F2] IdHTTP.TIdCustomHTTP.Post
+[005D7184] IdHTTP.TIdCustomHTTP.Post
+[005D728E] IdHTTP.TIdCustomHTTP.Post
+[007AEBFD] post2.TMainTest.Button1Click (Line 331, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 0:34:17 Exception EIdException occured in EIdException.Toss at 0 in file 
+Message: Only one TIdAntiFreeze can exist per application.
+Call stack: 
+[0056057B] IdException.EIdException.Toss
+[00565493] IdBaseComponent.TIdInitializerComponent.$bctr
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 0:32:23 Exception EFOpenError occured in Classes.TFileStream.$bctr at 0 in file 
+Message: Cannot open file "D:\Documents\Dropbox\Проекты\SearchAutoCat1\Project2\test navigate\Win32\Debug\img\00283615545B8FED.jpg". Не удается найти указанный файл
+Call stack: 
+[00456819] System.Classes.Classes.TFileStream.$bctr
+[004566D4] System.Classes.Classes.TFileStream.$bctr
+[00561840] IdGlobal.TIdReadFileExclusiveStream.$bctr
+[00671FCD] IdMessageClient.TIdMessageClient.SendBody
+[006726AE] IdMessageClient.TIdMessageClient.SendMsg
+[0067451D] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674EEB] IdSMTPBase.TIdSMTPBase.InternalSend
+[00677927] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007ACB67] Unitmail.SendMail2 (Line 431, "Unitmail.pas")
+[007AF247] post2.TMainTest.Button1Click (Line 420, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+
+
+22.12.2012 0:27:17 Exception EAccessViolation occured in GetTag at 129 in file parse.pas
+Message: Access violation at address 006887AD in module 'TestPost.exe'. Read of address 00000000
+Call stack: 
+[006887AD] parse.GetTag (Line 129, "parse.pas")
+[007B11CF] post2.TMainTest.GetImagesFromHTML (Line 647, "post2.pas")
+[007AF17B] post2.TMainTest.Button1Click (Line 416, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+22.12.2012 0:19:31 Exception EIdException occured in EIdException.Toss at 0 in file 
+Message: Only one TIdAntiFreeze can exist per application.
+Call stack: 
+[0056057B] IdException.EIdException.Toss
+[00565493] IdBaseComponent.TIdInitializerComponent.$bctr
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+21.12.2012 0:44:17 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059EF9B] IdIOHandlerStack.TIdIOHandlerStack.Connected
+[005DAEEB] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007B15CC] post2.TMainTest.GetImagesFromHTML (Line 711, "post2.pas")
+[007AF153] post2.TMainTest.Button1Click (Line 416, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+21.12.2012 0:36:13 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10054
+Connection reset by peer.
+Call stack: 
+[0057D537] IdStack.TIdStack.RaiseSocketError
+[0057D4BE] IdStack.TIdStack.RaiseLastSocketError
+[0057D429] IdStack.TIdStack.CheckForSocketError
+[00577A09] IdStackBSDBase.TIdStackBSDBase.Receive
+[0059984D] IdIOHandler.TIdIOHandler.ReadLn
+[00599691] IdIOHandler.TIdIOHandler.ReadLn
+[005DAD72] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007B15CC] post2.TMainTest.GetImagesFromHTML (Line 711, "post2.pas")
+[007AF153] post2.TMainTest.Button1Click (Line 416, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+21.12.2012 0:28:35 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: smtp2h.mail.yandex.net Error: timeout exceeded
+
+Call stack: 
+[00673A0E] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4F60] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4EF1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4FBD] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A538A] IdTCPConnection.TIdTCPConnection.SendCmd
+[00677336] IdSMTP.TIdSMTP.Authenticate
+[00677904] IdSMTP.TIdSMTP.InternalSend
+[00674FEF] IdSMTPBase.TIdSMTPBase.Send
+[00674F72] IdSMTPBase.TIdSMTPBase.Send
+[007ACB3F] Unitmail.SendMail2 (Line 426, "Unitmail.pas")
+[007AF21F] post2.TMainTest.Button1Click (Line 420, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+21.12.2012 0:19:25 Exception EStringListError occured in Classes.TStringList.Get at 0 in file 
+Message: List index out of bounds (3)
+Call stack: 
+[0045585C] System.Classes.Classes.TStringList.Get
+
+
+20.12.2012 23:57:46 Exception EIdHTTPProtocolException occured in CheckException at 0 in file 
+Message: HTTP/1.1 404 Not Found
+Call stack: 
+[005DA4F8] IdHTTP.CheckException
+[005DA8A2] IdHTTP.TIdHTTPProtocol.ProcessResponse
+[005DADDC] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007B1573] post2.TMainTest.GetImagesFromHTML (Line 709, "post2.pas")
+[007AF13F] post2.TMainTest.Button1Click (Line 416, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+20.12.2012 23:26:35 Exception EIdException occured in EIdException.Toss at 0 in file 
+Message: Only one TIdAntiFreeze can exist per application.
+Call stack: 
+[0056057B] IdException.EIdException.Toss
+[00565493] IdBaseComponent.TIdInitializerComponent.$bctr
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+20.12.2012 23:26:27 Exception EIdHTTPProtocolException occured in CheckException at 0 in file 
+Message: HTTP/1.1 404 Not Found
+Call stack: 
+[005DA4F8] IdHTTP.CheckException
+[005DA8A2] IdHTTP.TIdHTTPProtocol.ProcessResponse
+[005DADDC] IdHTTP.TIdCustomHTTP.DoRequest
+[005DABD5] IdHTTP.TIdCustomHTTP.Get
+[005D6858] IdHTTP.TIdCustomHTTP.Get
+[007B1356] post2.TMainTest.GetImagesFromHTML (Line 675, "post2.pas")
+[007AF13F] post2.TMainTest.Button1Click (Line 416, "post2.pas")
+[004A972B] Vcl.Controls.Controls.TControl.Click
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADC6B] Vcl.Controls.Controls.DoControlMsg
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[00545146] Vcl.Forms.Forms.TCustomForm.WndProc
+[004AD170] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463128] System.Classes.ClassesStdWndProc
+[004ADC18] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004ADB1B] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3628] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463128] System.Classes.ClassesStdWndProc
+
+
+06.03.2012 0:00:49 Exception EIdException occured in EIdException.Toss at 0 in file 
+Message: Only one TIdAntiFreeze can exist per application.
+Call stack: 
+[0056034B] IdException.EIdException.Toss
+[00565263] IdBaseComponent.TIdInitializerComponent.$bctr
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[00544F16] Vcl.Forms.Forms.TCustomForm.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+06.03.2012 0:00:38 Exception EFOpenError occured in Classes.TFileStream.$bctr at 0 in file 
+Message: Cannot open file "c:\folder\image1.jpg". Системе не удается найти указанный путь
+Call stack: 
+[00456809] System.Classes.Classes.TFileStream.$bctr
+[004566C4] System.Classes.Classes.TFileStream.$bctr
+[00561610] IdGlobal.TIdReadFileExclusiveStream.$bctr
+[00671D9D] IdMessageClient.TIdMessageClient.SendBody
+[0067247E] IdMessageClient.TIdMessageClient.SendMsg
+[006742ED] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674CBB] IdSMTPBase.TIdSMTPBase.InternalSend
+[006776F7] IdSMTP.TIdSMTP.InternalSend
+[00674DBF] IdSMTPBase.TIdSMTPBase.Send
+[00674D42] IdSMTPBase.TIdSMTPBase.Send
+[007999B7] UnitSend.SendMail1 (Line 213, "UnitSend.pas")
+[007993AF] UnitSend.TestMail2 (Line 170, "UnitSend.pas")
+[007A6F40] post2.TMainTest.Button3Click (Line 569, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+05.03.2012 23:54:18 Exception EAbort occured in GetTag at 131 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 23:25:55 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: Sender address rejected: not owned by auth user.
+
+Call stack: 
+[006737DE] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4D30] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4CC1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4D8D] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A515A] IdTCPConnection.TIdTCPConnection.SendCmd
+[006742B0] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674CBB] IdSMTPBase.TIdSMTPBase.InternalSend
+[006776F7] IdSMTP.TIdSMTP.InternalSend
+[00674DBF] IdSMTPBase.TIdSMTPBase.Send
+[00674D42] IdSMTPBase.TIdSMTPBase.Send
+[00799353] UnitSend.SendMail (Line 73, "UnitSend.pas")
+[0079972D] UnitSend.TestMail2 (Line 147, "UnitSend.pas")
+[007A7160] post2.TMainTest.Button3Click (Line 569, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+05.03.2012 23:25:07 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: Sender address rejected: not owned by auth user.
+
+Call stack: 
+[006737DE] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4D30] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4CC1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4D8D] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A515A] IdTCPConnection.TIdTCPConnection.SendCmd
+[006742B0] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674CBB] IdSMTPBase.TIdSMTPBase.InternalSend
+[006776F7] IdSMTP.TIdSMTP.InternalSend
+[00674DBF] IdSMTPBase.TIdSMTPBase.Send
+[00674D42] IdSMTPBase.TIdSMTPBase.Send
+[00799353] UnitSend.SendMail (Line 73, "UnitSend.pas")
+[0079972D] UnitSend.TestMail2 (Line 147, "UnitSend.pas")
+[007A7160] post2.TMainTest.Button3Click (Line 569, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+05.03.2012 23:24:39 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: Error: authentication failed: Invalid user or password!
+
+Call stack: 
+[006737DE] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4D30] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4CC1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4D8D] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A515A] IdTCPConnection.TIdTCPConnection.SendCmd
+[0067716C] IdSMTP.TIdSMTP.Authenticate
+[006776D4] IdSMTP.TIdSMTP.InternalSend
+[00674DBF] IdSMTPBase.TIdSMTPBase.Send
+[00674D42] IdSMTPBase.TIdSMTPBase.Send
+[0079934F] UnitSend.SendMail (Line 73, "UnitSend.pas")
+[00799729] UnitSend.TestMail2 (Line 147, "UnitSend.pas")
+[007A715C] post2.TMainTest.Button3Click (Line 569, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+05.03.2012 23:23:08 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: Error: send AUTH command first.
+
+Call stack: 
+[006737DE] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4D30] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4CC1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4D8D] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A515A] IdTCPConnection.TIdTCPConnection.SendCmd
+[006742B0] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674CBB] IdSMTPBase.TIdSMTPBase.InternalSend
+[006776F7] IdSMTP.TIdSMTP.InternalSend
+[00674DBF] IdSMTPBase.TIdSMTPBase.Send
+[00674D42] IdSMTPBase.TIdSMTPBase.Send
+[0079934F] UnitSend.SendMail (Line 73, "UnitSend.pas")
+[00799729] UnitSend.TestMail2 (Line 147, "UnitSend.pas")
+[007A715C] post2.TMainTest.Button3Click (Line 569, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+05.03.2012 2:04:11 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 2:04:07 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 2:04:07 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 2:02:02 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:59:38 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:59:36 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:59:35 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:59:29 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:57:10 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:57:08 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:57:07 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:57:04 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:54:17 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:54:11 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:54:10 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:54:06 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:34:06 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D307] IdStack.TIdStack.RaiseSocketError
+[0057D28E] IdStack.TIdStack.RaiseLastSocketError
+[0057D1F9] IdStack.TIdStack.CheckForSocketError
+[0057A5C5] IdStackWindows.TIdStackWindows.Connect
+[0059C169] IdSocketHandle.TIdSocketHandle.Connect
+[0059F0E1] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A291B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8B18] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D8FAA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAB37] IdHTTP.TIdCustomHTTP.DoRequest
+[005D67C2] IdHTTP.TIdCustomHTTP.Post
+[005D6F54] IdHTTP.TIdCustomHTTP.Post
+[005D705E] IdHTTP.TIdCustomHTTP.Post
+[007A521A] post2.TMainTest.Button1Click (Line 358, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[00544F16] Vcl.Forms.Forms.TCustomForm.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+05.03.2012 0:33:28 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D307] IdStack.TIdStack.RaiseSocketError
+[0057D28E] IdStack.TIdStack.RaiseLastSocketError
+[0057D1F9] IdStack.TIdStack.CheckForSocketError
+[0057A5C5] IdStackWindows.TIdStackWindows.Connect
+[0059C169] IdSocketHandle.TIdSocketHandle.Connect
+[0059F0E1] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A291B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8B18] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D8FAA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAB37] IdHTTP.TIdCustomHTTP.DoRequest
+[005D67C2] IdHTTP.TIdCustomHTTP.Post
+[005D6F54] IdHTTP.TIdCustomHTTP.Post
+[005D705E] IdHTTP.TIdCustomHTTP.Post
+[007A521A] post2.TMainTest.Button1Click (Line 358, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[00544F16] Vcl.Forms.Forms.TCustomForm.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+05.03.2012 0:27:45 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: Bad address mailbox syntax.
+
+Call stack: 
+[00673676] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4D30] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4CC1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4D8D] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A515A] IdTCPConnection.TIdTCPConnection.SendCmd
+[00674148] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674B53] IdSMTPBase.TIdSMTPBase.InternalSend
+[0067758F] IdSMTP.TIdSMTP.InternalSend
+[00674C57] IdSMTPBase.TIdSMTPBase.Send
+[00674BDA] IdSMTPBase.TIdSMTPBase.Send
+[00799BDD] UnitSend.SendMail2 (Line 263, "UnitSend.pas")
+[007A5726] post2.TMainTest.Button1Click (Line 433, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[00544F16] Vcl.Forms.Forms.TCustomForm.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+05.03.2012 0:27:33 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:27:30 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:27:30 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:27:19 Exception EAbort occured in GetTagName at 74 in file parse.pas
+Message: Operation aborted
+Call stack: 
+
+
+05.03.2012 0:21:48 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D307] IdStack.TIdStack.RaiseSocketError
+[0057D28E] IdStack.TIdStack.RaiseLastSocketError
+[0057D1F9] IdStack.TIdStack.CheckForSocketError
+[0057A5C5] IdStackWindows.TIdStackWindows.Connect
+[0059C169] IdSocketHandle.TIdSocketHandle.Connect
+[0059F0E1] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A291B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[005D8B18] IdHTTP.TIdCustomHTTP.CheckAndConnect
+[005D8FAA] IdHTTP.TIdCustomHTTP.ConnectToHost
+[005DAB37] IdHTTP.TIdCustomHTTP.DoRequest
+[005D67C2] IdHTTP.TIdCustomHTTP.Post
+[005D6F54] IdHTTP.TIdCustomHTTP.Post
+[005D705E] IdHTTP.TIdCustomHTTP.Post
+[007A521A] post2.TMainTest.Button1Click (Line 358, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[00544F16] Vcl.Forms.Forms.TCustomForm.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 21:15:49 Exception EIdSASLMechNeeded occured in EIdException.Toss at 0 in file 
+Message: Need SASL mechanisms to login with it!!
+Call stack: 
+[0056034B] IdException.EIdException.Toss
+[00675E55] IdSASLCollection.TIdSASLEntries.LoginSASL
+[0067707D] IdSMTP.TIdSMTP.Authenticate
+[0067756C] IdSMTP.TIdSMTP.InternalSend
+[00674C57] IdSMTPBase.TIdSMTPBase.Send
+[00674BDA] IdSMTPBase.TIdSMTPBase.Send
+[00799493] UnitSend.SendHTMLMail (Line 367, "UnitSend.pas")
+[007A6868] post2.TMainTest.Button3Click (Line 554, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 21:08:02 Exception EIdException occured in EIdException.Toss at 0 in file 
+Message: Only one TIdAntiFreeze can exist per application.
+Call stack: 
+[0056034B] IdException.EIdException.Toss
+[00565263] IdBaseComponent.TIdInitializerComponent.$bctr
+[007A686C] post2.TMainTest.Button3Click (Line 554, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 21:07:19 Exception EInvalidPointer occured in TObject.FreeInstance at 0 in file 
+Message: Invalid pointer operation
+Call stack: 
+[0040535C] System.TObject.FreeInstance
+[0040535C] System.TObject.FreeInstance
+[004053A4] System.TObject.Free
+[007A6650] post2.TMainTest.Button3Click (Line 554, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 20:59:57 Exception EIdSASLMechNeeded occured in EIdException.Toss at 0 in file 
+Message: Need SASL mechanisms to login with it!!
+Call stack: 
+[0056034B] IdException.EIdException.Toss
+[00675E55] IdSASLCollection.TIdSASLEntries.LoginSASL
+[0067707D] IdSMTP.TIdSMTP.Authenticate
+[0067756C] IdSMTP.TIdSMTP.InternalSend
+[00674C57] IdSMTPBase.TIdSMTPBase.Send
+[00674BDA] IdSMTPBase.TIdSMTPBase.Send
+[0079929E] UnitSend.SendHTMLMail (Line 352, "UnitSend.pas")
+[007A6650] post2.TMainTest.Button3Click (Line 554, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 19:08:30 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057DAAF] IdStack.TIdStack.RaiseSocketError
+[0057DA36] IdStack.TIdStack.RaiseLastSocketError
+[0057D9A1] IdStack.TIdStack.CheckForSocketError
+[0057AD6D] IdStackWindows.TIdStackWindows.Connect
+[0059C911] IdSocketHandle.TIdSocketHandle.Connect
+[0059F889] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A30C3] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[006620D4] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect
+[00799897] UnitSend.SendHTMLMail (Line 327, "UnitSend.pas")
+[007A6C38] post2.TMainTest.Button3Click (Line 554, "post2.pas")
+[004A9CA3] Vcl.Controls.Controls.TControl.Click
+[004AE093] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3BA0] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004AE1E3] Vcl.Controls.Controls.DoControlMsg
+[004AE093] Vcl.Controls.Controls.TWinControl.WndProc
+[004AD6E8] Vcl.Controls.Controls.TWinControl.MainWndProc
+[004638C0] System.Classes.ClassesStdWndProc
+[004AE190] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AE093] Vcl.Controls.Controls.TWinControl.WndProc
+[004C3BA0] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004638C0] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 18:55:25 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: Error: send AUTH command first.
+
+Call stack: 
+[00673676] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4D30] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4CC1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4D8D] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A515A] IdTCPConnection.TIdTCPConnection.SendCmd
+[00674148] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674B53] IdSMTPBase.TIdSMTPBase.InternalSend
+[0067758F] IdSMTP.TIdSMTP.InternalSend
+[00674C57] IdSMTPBase.TIdSMTPBase.Send
+[00674BDA] IdSMTPBase.TIdSMTPBase.Send
+[007991BC] UnitSend.SendAtach (Line 298, "UnitSend.pas")
+[007A63A4] post2.TMainTest.Button3Click (Line 554, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 18:54:54 Exception EAbstractError occured in Sysutils.AbstractErrorHandler at 0 in file 
+Message: Abstract Error
+Call stack: 
+[0042A72E] System.SysUtils.Sysutils.AbstractErrorHandler
+[00665A7F] IdAttachment.TIdAttachment.LoadFromStream
+[00665A44] IdAttachment.TIdAttachment.LoadFromFile
+[007991A6] UnitSend.SendAtach (Line 294, "UnitSend.pas")
+[007A63AC] post2.TMainTest.Button3Click (Line 554, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 18:49:38 Exception EAbstractError occured in Sysutils.AbstractErrorHandler at 0 in file 
+Message: Abstract Error
+Call stack: 
+[0042A72E] System.SysUtils.Sysutils.AbstractErrorHandler
+[00665A7F] IdAttachment.TIdAttachment.LoadFromStream
+[00665A44] IdAttachment.TIdAttachment.LoadFromFile
+[007991A6] UnitSend.SendAtach (Line 294, "UnitSend.pas")
+[007A63AC] post2.TMainTest.Button3Click (Line 554, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 18:48:46 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D307] IdStack.TIdStack.RaiseSocketError
+[0057D28E] IdStack.TIdStack.RaiseLastSocketError
+[0057D1F9] IdStack.TIdStack.CheckForSocketError
+[0057A5C5] IdStackWindows.TIdStackWindows.Connect
+[0059C169] IdSocketHandle.TIdSocketHandle.Connect
+[0059F0E1] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A291B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[0066192C] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect
+[007990D6] UnitSend.SendAtach (Line 280, "UnitSend.pas")
+[007A63AC] post2.TMainTest.Button3Click (Line 554, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 18:15:38 Exception EIdSMTPReplyError occured in TIdReplySMTP.RaiseReplyError at 0 in file 
+Message: Must issue a STARTTLS command first. xw1sm4301169lab.11
+
+Call stack: 
+[00673676] IdReplySMTP.TIdReplySMTP.RaiseReplyError
+[005A4D30] IdTCPConnection.TIdTCPConnection.RaiseExceptionForLastCmdResult
+[005A4CC1] IdTCPConnection.TIdTCPConnection.GetResponse
+[005A4D8D] IdTCPConnection.TIdTCPConnection.SendCmd
+[005A515A] IdTCPConnection.TIdTCPConnection.SendCmd
+[00674148] IdSMTPBase.TIdSMTPBase.SendNoPipelining
+[00674B53] IdSMTPBase.TIdSMTPBase.InternalSend
+[0067758F] IdSMTP.TIdSMTP.InternalSend
+[00674C57] IdSMTPBase.TIdSMTPBase.Send
+[00674BDA] IdSMTPBase.TIdSMTPBase.Send
+[00799350] UnitSend.SendMail (Line 67, "UnitSend.pas")
+[00799721] UnitSend.TestMail (Line 115, "UnitSend.pas")
+[007A69C4] post2.TMainTest.Button3Click (Line 553, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 18:15:14 Exception EAccessViolation occured in TIdEMailAddressList.AddItems at 0 in file 
+Message: Access violation at address 005B272C in module 'TestPost.exe'. Read of address 01B2C93B
+Call stack: 
+[005B272C] IdEMailAddress.TIdEMailAddressList.AddItems
+
+
+04.03.2012 18:14:37 Exception EAccessViolation occured in TIdEMailAddressList.AddItems at 0 in file 
+Message: Access violation at address 005B272C in module 'TestPost.exe'. Read of address 01B2C93B
+Call stack: 
+[005B272C] IdEMailAddress.TIdEMailAddressList.AddItems
+
+
+04.03.2012 18:00:22 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D307] IdStack.TIdStack.RaiseSocketError
+[0057D28E] IdStack.TIdStack.RaiseLastSocketError
+[0057D1F9] IdStack.TIdStack.CheckForSocketError
+[0057A5C5] IdStackWindows.TIdStackWindows.Connect
+[0059C169] IdSocketHandle.TIdSocketHandle.Connect
+[0059F0E1] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A291B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[0066192C] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect
+[007991BF] UnitSend.SendMail (Line 64, "UnitSend.pas")
+[007995A1] UnitSend.TestMail (Line 113, "UnitSend.pas")
+[007A6844] post2.TMainTest.Button3Click (Line 553, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 17:17:28 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D307] IdStack.TIdStack.RaiseSocketError
+[0057D28E] IdStack.TIdStack.RaiseLastSocketError
+[0057D1F9] IdStack.TIdStack.CheckForSocketError
+[0057A5C5] IdStackWindows.TIdStackWindows.Connect
+[0059C169] IdSocketHandle.TIdSocketHandle.Connect
+[0059F0E1] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A291B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[0066192C] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect
+[00799186] UnitSend.sSendMail (Line 56, "UnitSend.pas")
+[00799438] UnitSend.SendMail (Line 85, "UnitSend.pas")
+[0079967D] UnitSend.TestMail (Line 117, "UnitSend.pas")
+[007A6920] post2.TMainTest.Button3Click (Line 553, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc
+
+
+04.03.2012 17:16:57 Exception EIdSocketError occured in TIdStack.RaiseSocketError at 0 in file 
+Message: Socket Error # 10060
+Connection timed out.
+Call stack: 
+[0057D307] IdStack.TIdStack.RaiseSocketError
+[0057D28E] IdStack.TIdStack.RaiseLastSocketError
+[0057D1F9] IdStack.TIdStack.CheckForSocketError
+[0057A5C5] IdStackWindows.TIdStackWindows.Connect
+[0059C169] IdSocketHandle.TIdSocketHandle.Connect
+[0059F0E1] IdIOHandlerStack.TIdIOHandlerStack.ConnectClient
+[005A291B] IdIOHandlerSocket.TIdIOHandlerSocket.Open
+[0066192C] IdExplicitTLSClientServerBase.TIdExplicitTLSClient.Connect
+[00799186] UnitSend.sSendMail (Line 56, "UnitSend.pas")
+[00799438] UnitSend.SendMail (Line 85, "UnitSend.pas")
+[0079967D] UnitSend.TestMail (Line 117, "UnitSend.pas")
+[007A6920] post2.TMainTest.Button3Click (Line 553, "post2.pas")
+[004A94FB] Vcl.Controls.Controls.TControl.Click
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[004ADA3B] Vcl.Controls.Controls.DoControlMsg
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004ACF40] Vcl.Controls.Controls.TWinControl.MainWndProc
+[00463118] System.Classes.ClassesStdWndProc
+[004AD9E8] Vcl.Controls.Controls.TWinControl.DefaultHandler
+[004AD8EB] Vcl.Controls.Controls.TWinControl.WndProc
+[004C33F8] Vcl.StdCtrls.Stdctrls.TButtonControl.WndProc
+[00463118] System.Classes.ClassesStdWndProc

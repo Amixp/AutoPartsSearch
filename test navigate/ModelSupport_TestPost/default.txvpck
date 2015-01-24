@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="m20oft1ep6n_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="uml:package:TestPost:src:getstrparam">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,121,134" />
+      <reference referencedUin="delphi:e_class:src:TestPost:getstrparam.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:TestPost:getstrparam.TDelim" />
+      <reference referencedUin="delphi:e_class:src:TestPost:getstrparam.TArrayOfString" />
+    </reference>
+    <reference referencedUin="uml:package:TestPost:src:post2">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="150,1,100,151" />
+      <reference referencedUin="delphi:e_class:src:TestPost:post2.TMainTest" />
+      <reference referencedUin="delphi:e_class:src:TestPost:post2.@unitclass" />
+    </reference>
+    <reference referencedUin="uml:package:TestPost:src:parse">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="269,1,153,198" />
+      <reference referencedUin="delphi:e_class:src:TestPost:parse._Imgs" />
+      <reference referencedUin="delphi:e_class:src:TestPost:parse._img" />
+      <reference referencedUin="delphi:e_class:src:TestPost:parse.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:TestPost:parse._Tag" />
+      <reference referencedUin="design:view:::18cg3vxvv5p_v" />
+      <reference referencedUin="design:view:::5o8odrzfafp_v" />
+    </reference>
+    <reference referencedUin="uml:package:TestPost:src:Unit5">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="131,163,100,151" />
+      <reference referencedUin="delphi:e_class:src:TestPost:Unit5.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:TestPost:Unit5.TForm4" />
+    </reference>
+    <reference referencedUin="uml:package:TestPost:src:TestPost">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="22,163,104,134" />
+      <reference referencedUin="delphi:e_class:src:TestPost:TestPost.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::i10riczb2mhcfnxlm_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="288,218,99,42" />
+    </reference>
+  </view>
+</nodeSet>
